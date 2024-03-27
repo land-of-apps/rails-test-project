@@ -18,13 +18,13 @@ docker build -t rails-test-project .
 Run the application with port 3000 forwarding correctly. 
 
 ```
-docker run -p 3000:3000 -v "$(pwd)":/app rails-test-project bundle exec rails server -b 0.0.0.0
+docker run -p 3000:3000 -v "$(pwd)":/app -v "$(pwd)"/tmp/appmap:/app/tmp/appmap rails-test-project bundle exec rails server -b 0.0.0.0
 ```
 
 Or run the tests:
 
 ```
-docker run -p 3000:3000 -v "$(pwd)":/app rails-test-project bundle exec rails test
+docker run -p 3000:3000 -v "$(pwd)":/app -v "$(pwd)"/tmp/appmap:/app/tmp/appmap rails-test-project bundle exec rails test
 ```
 
 You can then log in as the sample administrative user with the email `example@railstutorial.org` and password `foobar`.
@@ -40,6 +40,9 @@ services:
     command: bundle exec rails server -b 0.0.0.0
     ports:
       - "3000:3000"
+    volumes:
+      - .:/app
+      - ./tmp/appmap:/app/tmp/appmap
 ```
 
 Now run this to start the container.

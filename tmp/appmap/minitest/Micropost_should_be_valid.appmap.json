@@ -1,0 +1,676 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 141160,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 28280,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffab8295f0>"
+      }
+    },
+    {
+      "id": 2,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 1,
+      "elapsed": 9.160000900010346e-7,
+      "elapsed_instrumentation": 0.00007074999984979513,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 28300,
+        "size": 0
+      }
+    },
+    {
+      "id": 3,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 141160,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 28280,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffab8295f0>"
+      }
+    },
+    {
+      "id": 4,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 3,
+      "elapsed": 0.000005790999921373441,
+      "elapsed_instrumentation": 0.00005662600005962304,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000ffffab828a38 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb]",
+        "object_id": 28320,
+        "size": 1
+      }
+    },
+    {
+      "id": 5,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 141180,
+          "value": "  \u001b[1m\u001b[36mTRANSACTION (0.0ms)\u001b[0m  \u001b[1m\u001b[36mbegin transaction\u001b[0m\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 6,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 5,
+      "elapsed": 0.0038889999998446,
+      "elapsed_instrumentation": 0.00008666600001561164,
+      "return_value": {
+        "class": "Integer",
+        "value": "67",
+        "object_id": 135
+      }
+    },
+    {
+      "id": 7,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "begin transaction",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 8,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 7,
+      "elapsed": 0.004082208,
+      "elapsed_instrumentation": 0.00006683400010842888
+    },
+    {
+      "id": 9,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 141200,
+          "value": "-----------------------------------\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 10,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 9,
+      "elapsed": 0.009472332999848732,
+      "elapsed_instrumentation": 0.00010954200024571037,
+      "return_value": {
+        "class": "Integer",
+        "value": "36",
+        "object_id": 73
+      }
+    },
+    {
+      "id": 11,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 141220,
+          "value": "MicropostTest: test_should_be_valid\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 12,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 11,
+      "elapsed": 0.0009155420000297454,
+      "elapsed_instrumentation": 0.00011029200027223851,
+      "return_value": {
+        "class": "Integer",
+        "value": "36",
+        "object_id": 73
+      }
+    },
+    {
+      "id": 13,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 141240,
+          "value": "-----------------------------------\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 14,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 13,
+      "elapsed": 0.006933249999974578,
+      "elapsed_instrumentation": 0.00013612399970952538,
+      "return_value": {
+        "class": "Integer",
+        "value": "36",
+        "object_id": 73
+      }
+    },
+    {
+      "id": 15,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 141260,
+          "value": "  \u001b[1m\u001b[36mUser Load (0.6ms)\u001b[0m  \u001b[1m\u001b[34mSELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMI (...43 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 16,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 15,
+      "elapsed": 0.006057832999886159,
+      "elapsed_instrumentation": 0.00012599999990925426,
+      "return_value": {
+        "class": "Integer",
+        "value": "143",
+        "object_id": 287
+      }
+    },
+    {
+      "id": 17,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 18,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 17,
+      "elapsed": 0.006929791,
+      "elapsed_instrumentation": 0.00006595800005015917
+    },
+    {
+      "id": 19,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 141300,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 103540,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffa9cd91b0>"
+      }
+    },
+    {
+      "id": 20,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "PRAGMA table_info(\"active_storage_attachments\")",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 21,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 20,
+      "elapsed": 0.000122833,
+      "elapsed_instrumentation": 0.00002858400011973572
+    },
+    {
+      "id": 22,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT sql FROM\n  (SELECT * FROM sqlite_master UNION ALL\n   SELECT * FROM sqlite_temp_master)\nWHERE type = 'table' AND name = 'active_storage_attachments'\n",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 23,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 22,
+      "elapsed": 0.000072375,
+      "elapsed_instrumentation": 0.00001049999991664663
+    },
+    {
+      "id": 24,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 19,
+      "elapsed": 0.0005305409999891708,
+      "elapsed_instrumentation": 0.00010983300012412656,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000ffffa9cd8058 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffffa9cd8378 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffffa9cd85a8 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffffa9cd87b0 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffffa9cd89b8 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffffa9cd8bc0 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffffa9cd8da0 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb]",
+        "object_id": 103560,
+        "size": 7
+      }
+    },
+    {
+      "id": 25,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 141300,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 103540,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffa9cd91b0>"
+      }
+    },
+    {
+      "id": 26,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 25,
+      "elapsed": 9.170000794256339e-7,
+      "elapsed_instrumentation": 0.000029290999691511388,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 103580,
+        "size": 0
+      }
+    },
+    {
+      "id": 27,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 141320,
+          "value": "  \u001b[1m\u001b[36mTRANSACTION (0.0ms)\u001b[0m  \u001b[1m\u001b[31mrollback transaction\u001b[0m\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 28,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 27,
+      "elapsed": 0.004409124999938285,
+      "elapsed_instrumentation": 0.00009970800010705716,
+      "return_value": {
+        "class": "Integer",
+        "value": "70",
+        "object_id": 141
+      }
+    },
+    {
+      "id": 29,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "rollback transaction",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 30,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 29,
+      "elapsed": 0.004606083,
+      "elapsed_instrumentation": 0.00006195899982230912
+    },
+    {
+      "id": 31,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 141340,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 90900,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffab7824a8>"
+      }
+    },
+    {
+      "id": 32,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 31,
+      "elapsed": 0.000001041000132318004,
+      "elapsed_instrumentation": 0.00007049999976516119,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 90920,
+        "size": 0
+      }
+    },
+    {
+      "id": 33,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 141340,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 90900,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffab7824a8>"
+      }
+    },
+    {
+      "id": 34,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 33,
+      "elapsed": 0.000013374999980442226,
+      "elapsed_instrumentation": 0.00004004199990959023,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000ffffab782138 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffffab781fd0 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb]",
+        "object_id": 90940,
+        "size": 2
+      }
+    }
+  ],
+  "version": "1.12.0",
+  "metadata": {
+    "app": "sample_rails_app",
+    "language": {
+      "name": "ruby",
+      "engine": "ruby",
+      "version": "3.1.2"
+    },
+    "client": {
+      "name": "appmap",
+      "url": "https://github.com/applandinc/appmap-ruby",
+      "version": "0.102.2"
+    },
+    "frameworks": [
+      {
+        "name": "rails",
+        "version": "7.0.4"
+      },
+      {
+        "name": "minitest",
+        "version": "5.15.0"
+      }
+    ],
+    "git": {
+      "repository": "https://github.com/land-of-apps/sample_rails_app.git",
+      "branch": "appmap-configured",
+      "commit": "e176455318c46ff6f7cc9d3e547b64c34c903efe",
+      "git_last_annotated_tag": null,
+      "git_last_tag": null,
+      "git_commits_since_last_annotated_tag": null,
+      "git_commits_since_last_tag": null
+    },
+    "name": "Micropost should be valid",
+    "source_location": "test/models/micropost_test.rb:10",
+    "recorder": {
+      "name": "minitest",
+      "type": "tests"
+    },
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "name": "activesupport",
+      "type": "package",
+      "children": [
+        {
+          "name": "ActiveSupport",
+          "type": "class",
+          "children": [
+            {
+              "name": "Callbacks",
+              "type": "class",
+              "children": [
+                {
+                  "name": "CallbackSequence",
+                  "type": "class",
+                  "children": [
+                    {
+                      "name": "invoke_before",
+                      "type": "function",
+                      "labels": [
+                        "mvc.before_action"
+                      ],
+                      "static": false,
+                      "location": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb:594"
+                    },
+                    {
+                      "name": "invoke_after",
+                      "type": "function",
+                      "labels": [
+                        "mvc.after_action"
+                      ],
+                      "static": false,
+                      "location": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb:598"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "logger",
+      "type": "package",
+      "children": [
+        {
+          "name": "Logger",
+          "type": "class",
+          "children": [
+            {
+              "name": "LogDevice",
+              "type": "class",
+              "children": [
+                {
+                  "name": "write",
+                  "type": "function",
+                  "labels": [
+                    "log"
+                  ],
+                  "static": false,
+                  "location": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb:31"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "database",
+      "name": "Database",
+      "children": [
+        {
+          "type": "query",
+          "name": "begin transaction"
+        },
+        {
+          "type": "query",
+          "name": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?"
+        },
+        {
+          "type": "query",
+          "name": "PRAGMA table_info(\"active_storage_attachments\")"
+        },
+        {
+          "type": "query",
+          "name": "SELECT sql FROM\n  (SELECT * FROM sqlite_master UNION ALL\n   SELECT * FROM sqlite_temp_master)\nWHERE type = 'table' AND name = 'active_storage_attachments'\n"
+        },
+        {
+          "type": "query",
+          "name": "rollback transaction"
+        }
+      ]
+    }
+  ]
+}

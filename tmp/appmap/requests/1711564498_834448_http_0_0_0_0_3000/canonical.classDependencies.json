@@ -1,0 +1,106 @@
+[
+  {
+    "caller": "GET /",
+    "callee": "actionpack/ActionController"
+  },
+  {
+    "caller": "GET /",
+    "callee": "actionpack/ActionDispatch"
+  },
+  {
+    "caller": "GET /",
+    "callee": "actionview/ActionView"
+  },
+  {
+    "caller": "GET /",
+    "callee": "activesupport/ActiveSupport"
+  },
+  {
+    "caller": "GET /",
+    "callee": "app/controllers"
+  },
+  {
+    "caller": "GET /",
+    "callee": "json/JSON"
+  },
+  {
+    "caller": "GET /",
+    "callee": "logger/Logger"
+  },
+  {
+    "caller": "GET /",
+    "callee": "ruby/String"
+  },
+  {
+    "caller": "actionpack/ActionController",
+    "callee": "app/views"
+  },
+  {
+    "caller": "actionpack/ActionDispatch",
+    "callee": "activesupport/ActiveSupport"
+  },
+  {
+    "caller": "actionpack/ActionDispatch",
+    "callee": "json/JSON"
+  },
+  {
+    "caller": "activesupport/ActiveSupport",
+    "callee": "json/JSON"
+  },
+  {
+    "caller": "activesupport/ActiveSupport",
+    "callee": "openssl/OpenSSL"
+  },
+  {
+    "caller": "activesupport/ActiveSupport",
+    "callee": "ruby/Array"
+  },
+  {
+    "caller": "activesupport/ActiveSupport",
+    "callee": "ruby/String"
+  },
+  {
+    "caller": "app/controllers",
+    "callee": "app/helpers"
+  },
+  {
+    "caller": "app/helpers",
+    "callee": "actionpack/ActionDispatch"
+  },
+  {
+    "caller": "app/views",
+    "callee": "actionpack/ActionDispatch"
+  },
+  {
+    "caller": "app/views",
+    "callee": "actionview/ActionView"
+  },
+  {
+    "caller": "app/views",
+    "callee": "app/helpers"
+  },
+  {
+    "caller": "app/views",
+    "callee": "logger/Logger"
+  },
+  {
+    "caller": "app/views",
+    "callee": "ruby/Array"
+  },
+  {
+    "caller": "app/views",
+    "callee": "ruby/Marshal"
+  },
+  {
+    "caller": "app/views",
+    "callee": "ruby/String"
+  },
+  {
+    "caller": "app/views",
+    "callee": "sprockets/Sprockets"
+  },
+  {
+    "caller": "sprockets/Sprockets",
+    "callee": "ruby/Marshal"
+  }
+]

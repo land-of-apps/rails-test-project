@@ -1,0 +1,1769 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 95680,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 28220,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffab8295f0>"
+      }
+    },
+    {
+      "id": 2,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 1,
+      "elapsed": 8.749998414714355e-7,
+      "elapsed_instrumentation": 0.00006708399996568915,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 28240,
+        "size": 0
+      }
+    },
+    {
+      "id": 3,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 95680,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 28220,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffab8295f0>"
+      }
+    },
+    {
+      "id": 4,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 3,
+      "elapsed": 0.000006542000164699857,
+      "elapsed_instrumentation": 0.000027291999913359177,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000ffffab828a38 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb]",
+        "object_id": 28260,
+        "size": 1
+      }
+    },
+    {
+      "id": 5,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 95700,
+          "value": "  \u001b[1m\u001b[36mTRANSACTION (0.0ms)\u001b[0m  \u001b[1m\u001b[36mbegin transaction\u001b[0m\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 6,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 5,
+      "elapsed": 0.0033153750000565196,
+      "elapsed_instrumentation": 0.00009412500003236346,
+      "return_value": {
+        "class": "Integer",
+        "value": "67",
+        "object_id": 135
+      }
+    },
+    {
+      "id": 7,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "begin transaction",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 8,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 7,
+      "elapsed": 0.00350525,
+      "elapsed_instrumentation": 0.00004770900000039546
+    },
+    {
+      "id": 9,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 95720,
+          "value": "------------------------------------------------\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 10,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 9,
+      "elapsed": 0.0026778330000070127,
+      "elapsed_instrumentation": 0.00008800000000519503,
+      "return_value": {
+        "class": "Integer",
+        "value": "49",
+        "object_id": 99
+      }
+    },
+    {
+      "id": 11,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 95740,
+          "value": "UserTest: test_should_follow_and_unfollow_a_user\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 12,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 11,
+      "elapsed": 0.003432542000155081,
+      "elapsed_instrumentation": 0.00011554100001376355,
+      "return_value": {
+        "class": "Integer",
+        "value": "49",
+        "object_id": 99
+      }
+    },
+    {
+      "id": 13,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 95760,
+          "value": "------------------------------------------------\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 14,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 13,
+      "elapsed": 0.003598042000021451,
+      "elapsed_instrumentation": 0.00012454200009415217,
+      "return_value": {
+        "class": "Integer",
+        "value": "49",
+        "object_id": 99
+      }
+    },
+    {
+      "id": 15,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "OpenSSL::Random",
+      "method_id": "random_bytes",
+      "path": "OpenSSL::Random.random_bytes",
+      "static": true,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "Integer",
+          "object_id": 33,
+          "value": "16",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 38040,
+        "value": "OpenSSL::Random"
+      }
+    },
+    {
+      "id": 16,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 15,
+      "elapsed": 0.000014582999938284047,
+      "elapsed_instrumentation": 0.00009716700014905655,
+      "return_value": {
+        "class": "String",
+        "value": "__~'__\u0001_______\u0007_",
+        "object_id": 95780
+      }
+    },
+    {
+      "id": 17,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 95800,
+          "value": "  \u001b[1m\u001b[36mUser Load (0.6ms)\u001b[0m  \u001b[1m\u001b[34mSELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMI (...43 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 18,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 17,
+      "elapsed": 0.004231957999991209,
+      "elapsed_instrumentation": 0.00009037399991029815,
+      "return_value": {
+        "class": "Integer",
+        "value": "143",
+        "object_id": 287
+      }
+    },
+    {
+      "id": 19,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 20,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 19,
+      "elapsed": 0.004972166,
+      "elapsed_instrumentation": 0.00006250000001273293
+    },
+    {
+      "id": 21,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 95820,
+          "value": "  \u001b[1m\u001b[36mUser Load (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMI (...43 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 22,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 21,
+      "elapsed": 0.0023681249999754073,
+      "elapsed_instrumentation": 0.00020079199998690456,
+      "return_value": {
+        "class": "Integer",
+        "value": "143",
+        "object_id": 287
+      }
+    },
+    {
+      "id": 23,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 24,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 23,
+      "elapsed": 0.002723833,
+      "elapsed_instrumentation": 0.00006883300011395477
+    },
+    {
+      "id": 25,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "following?",
+      "path": "app/models/user.rb",
+      "lineno": 107,
+      "static": false,
+      "parameters": [
+        {
+          "name": "other_user",
+          "class": "User",
+          "object_id": 95840,
+          "value": "#<User:0x0000ffffaa666b10>",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "User",
+        "object_id": 95860,
+        "value": "#<User:0x0000ffffaa696360>"
+      }
+    },
+    {
+      "id": 26,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 95940,
+          "value": "  \u001b[1m\u001b[36mUser Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"users\" INNER JOIN \"relationships (...186 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 27,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 26,
+      "elapsed": 0.005757332999792197,
+      "elapsed_instrumentation": 0.00011408400018808607,
+      "return_value": {
+        "class": "Integer",
+        "value": "286",
+        "object_id": 573
+      }
+    },
+    {
+      "id": 28,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ? AND \"users\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 29,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 28,
+      "elapsed": 0.006084334,
+      "elapsed_instrumentation": 0.00007370799994532717
+    },
+    {
+      "id": 30,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 25,
+      "elapsed": 0.015301334000014322,
+      "elapsed_instrumentation": 0.00009962500007532071
+    },
+    {
+      "id": 31,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "follow",
+      "path": "app/models/user.rb",
+      "lineno": 97,
+      "static": false,
+      "parameters": [
+        {
+          "name": "other_user",
+          "class": "User",
+          "object_id": 95840,
+          "value": "#<User:0x0000ffffaa666b10>",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "User",
+        "object_id": 95860,
+        "value": "#<User:0x0000ffffaa696360>"
+      }
+    },
+    {
+      "id": 32,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 95980,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 96000,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffaa653ab0>"
+      }
+    },
+    {
+      "id": 33,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 96040,
+          "value": "  \u001b[1m\u001b[36mCACHE User Load (0.0ms)\u001b[0m  \u001b[1m\u001b[34mSELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" =  (...49 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 34,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 33,
+      "elapsed": 0.0005165000000033615,
+      "elapsed_instrumentation": 0.00005983300025036442,
+      "return_value": {
+        "class": "Integer",
+        "value": "149",
+        "object_id": 299
+      }
+    },
+    {
+      "id": 35,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 36,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 35,
+      "elapsed": 0.000668792,
+      "elapsed_instrumentation": 0.000055125000017142156
+    },
+    {
+      "id": 37,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 32,
+      "elapsed": 0.0013921660001869895,
+      "elapsed_instrumentation": 0.00007616599987159134,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000ffffaa652de0 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffffaa653060 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffffaa653268 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffffaa653498 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffffaa6536a0 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb]",
+        "object_id": 96060,
+        "size": 5
+      }
+    },
+    {
+      "id": 38,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 95980,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 96000,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffaa653ab0>"
+      }
+    },
+    {
+      "id": 39,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 38,
+      "elapsed": 7.920000371086644e-7,
+      "elapsed_instrumentation": 0.00003083299998252187,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 96080,
+        "size": 0
+      }
+    },
+    {
+      "id": 40,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 96100,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 96120,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffaa65d060>"
+      }
+    },
+    {
+      "id": 41,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 40,
+      "elapsed": 0.000043292000100336736,
+      "elapsed_instrumentation": 0.00003366600003573694,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000ffffaa65ca20 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffffaa65cbb0 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb]",
+        "object_id": 96140,
+        "size": 2
+      }
+    },
+    {
+      "id": 42,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 96160,
+          "value": "  \u001b[1m\u001b[36mTRANSACTION (0.1ms)\u001b[0m  \u001b[1m\u001b[35mSAVEPOINT active_record_1\u001b[0m\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 43,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 42,
+      "elapsed": 0.0008187500000076398,
+      "elapsed_instrumentation": 0.00018754099983198103,
+      "return_value": {
+        "class": "Integer",
+        "value": "75",
+        "object_id": 151
+      }
+    },
+    {
+      "id": 44,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SAVEPOINT active_record_1",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 45,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 44,
+      "elapsed": 0.001101042,
+      "elapsed_instrumentation": 0.00004262500010554504
+    },
+    {
+      "id": 46,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 96180,
+          "value": "  \u001b[1m\u001b[36mRelationship Create (6.1ms)\u001b[0m  \u001b[1m\u001b[32mINSERT INTO \"relationships\" (\"follower_id\", \"fo (...214 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 47,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 46,
+      "elapsed": 0.000331541000150537,
+      "elapsed_instrumentation": 0.00011829200002466678,
+      "return_value": {
+        "class": "Integer",
+        "value": "314",
+        "object_id": 629
+      }
+    },
+    {
+      "id": 48,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "INSERT INTO \"relationships\" (\"follower_id\", \"followed_id\", \"created_at\", \"updated_at\") VALUES (?, ?, ?, ?)",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 49,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 48,
+      "elapsed": 0.006646292,
+      "elapsed_instrumentation": 0.000059082999996462604
+    },
+    {
+      "id": 50,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 96100,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 96120,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffaa65d060>"
+      }
+    },
+    {
+      "id": 51,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 50,
+      "elapsed": 9.590000900061568e-7,
+      "elapsed_instrumentation": 0.000050707999889709754,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 96200,
+        "size": 0
+      }
+    },
+    {
+      "id": 52,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 96220,
+          "value": "  \u001b[1m\u001b[36mTRANSACTION (0.0ms)\u001b[0m  \u001b[1m\u001b[35mRELEASE SAVEPOINT active_record_1\u001b[0m\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 53,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 52,
+      "elapsed": 0.00042712499998742715,
+      "elapsed_instrumentation": 0.00004641699979401892,
+      "return_value": {
+        "class": "Integer",
+        "value": "83",
+        "object_id": 167
+      }
+    },
+    {
+      "id": 54,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "RELEASE SAVEPOINT active_record_1",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 55,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 54,
+      "elapsed": 0.0005515,
+      "elapsed_instrumentation": 0.000025875000119413016
+    },
+    {
+      "id": 56,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 31,
+      "elapsed": 0.011963917000002766,
+      "elapsed_instrumentation": 0.00010687500025596819,
+      "return_value": {
+        "class": "ActiveRecord::Associations::CollectionProxy",
+        "value": "#<User::ActiveRecord_Associations_CollectionProxy:0x0000ffffaa66eec8>",
+        "object_id": 96240
+      }
+    },
+    {
+      "id": 57,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "following?",
+      "path": "app/models/user.rb",
+      "lineno": 107,
+      "static": false,
+      "parameters": [
+        {
+          "name": "other_user",
+          "class": "User",
+          "object_id": 95840,
+          "value": "#<User:0x0000ffffaa666b10>",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "User",
+        "object_id": 95860,
+        "value": "#<User:0x0000ffffaa696360>"
+      }
+    },
+    {
+      "id": 58,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 96260,
+          "value": "  \u001b[1m\u001b[36mUser Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"users\" INNER JOIN \"relationships (...186 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 59,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 58,
+      "elapsed": 0.0008118749999539432,
+      "elapsed_instrumentation": 0.00005154199993739894,
+      "return_value": {
+        "class": "Integer",
+        "value": "286",
+        "object_id": 573
+      }
+    },
+    {
+      "id": 60,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ? AND \"users\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 61,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 60,
+      "elapsed": 0.000986458,
+      "elapsed_instrumentation": 0.00003437500004110916
+    },
+    {
+      "id": 62,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 57,
+      "elapsed": 0.001556375000063781,
+      "elapsed_instrumentation": 0.00004758300019602757,
+      "return_value": {
+        "class": "TrueClass",
+        "value": "true",
+        "object_id": 20
+      }
+    },
+    {
+      "id": 63,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 96280,
+          "value": "  \u001b[1m\u001b[36mUser Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"users\" INNER JOIN \"relationships (...186 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 64,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 63,
+      "elapsed": 0.0011680420000175218,
+      "elapsed_instrumentation": 0.00006908299997121503,
+      "return_value": {
+        "class": "Integer",
+        "value": "286",
+        "object_id": 573
+      }
+    },
+    {
+      "id": 65,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"follower_id\" WHERE \"relationships\".\"followed_id\" = ? AND \"users\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 66,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 65,
+      "elapsed": 0.001372291,
+      "elapsed_instrumentation": 0.0001615840001250035
+    },
+    {
+      "id": 67,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "unfollow",
+      "path": "app/models/user.rb",
+      "lineno": 102,
+      "static": false,
+      "parameters": [
+        {
+          "name": "other_user",
+          "class": "User",
+          "object_id": 95840,
+          "value": "#<User:0x0000ffffaa666b10>",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "User",
+        "object_id": 95860,
+        "value": "#<User:0x0000ffffaa696360>"
+      }
+    },
+    {
+      "id": 68,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 96300,
+          "value": "  \u001b[1m\u001b[36mTRANSACTION (0.0ms)\u001b[0m  \u001b[1m\u001b[35mSAVEPOINT active_record_1\u001b[0m\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 69,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 68,
+      "elapsed": 0.0010761250000541622,
+      "elapsed_instrumentation": 0.00005404299986366823,
+      "return_value": {
+        "class": "Integer",
+        "value": "75",
+        "object_id": 151
+      }
+    },
+    {
+      "id": 70,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SAVEPOINT active_record_1",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 71,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 70,
+      "elapsed": 0.001288542,
+      "elapsed_instrumentation": 0.00015383300001303724
+    },
+    {
+      "id": 72,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 96320,
+          "value": "  \u001b[1m\u001b[36mRelationship Delete All (0.1ms)\u001b[0m  \u001b[1m\u001b[31mDELETE FROM \"relationships\" WHERE \"relation (...125 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 73,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 72,
+      "elapsed": 0.0012608329998329282,
+      "elapsed_instrumentation": 0.00007504099994548596,
+      "return_value": {
+        "class": "Integer",
+        "value": "225",
+        "object_id": 451
+      }
+    },
+    {
+      "id": 74,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "DELETE FROM \"relationships\" WHERE \"relationships\".\"follower_id\" = ? AND \"relationships\".\"followed_id\" = ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 75,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 74,
+      "elapsed": 0.00149775,
+      "elapsed_instrumentation": 0.000042874999962805305
+    },
+    {
+      "id": 76,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 96340,
+          "value": "  \u001b[1m\u001b[36mTRANSACTION (0.1ms)\u001b[0m  \u001b[1m\u001b[35mRELEASE SAVEPOINT active_record_1\u001b[0m\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 77,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 76,
+      "elapsed": 0.000778084000103263,
+      "elapsed_instrumentation": 0.00010816700000759738,
+      "return_value": {
+        "class": "Integer",
+        "value": "83",
+        "object_id": 167
+      }
+    },
+    {
+      "id": 78,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "RELEASE SAVEPOINT active_record_1",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 79,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 78,
+      "elapsed": 0.00100775,
+      "elapsed_instrumentation": 0.00008845899992593331
+    },
+    {
+      "id": 80,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 67,
+      "elapsed": 0.005047083000135899,
+      "elapsed_instrumentation": 0.0001509170001554594,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<User:0x0000ffffaa666b10>]",
+        "object_id": 96360,
+        "size": 1
+      }
+    },
+    {
+      "id": 81,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "following?",
+      "path": "app/models/user.rb",
+      "lineno": 107,
+      "static": false,
+      "parameters": [
+        {
+          "name": "other_user",
+          "class": "User",
+          "object_id": 95840,
+          "value": "#<User:0x0000ffffaa666b10>",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "User",
+        "object_id": 95860,
+        "value": "#<User:0x0000ffffaa696360>"
+      }
+    },
+    {
+      "id": 82,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 96380,
+          "value": "  \u001b[1m\u001b[36mUser Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"users\" INNER JOIN \"relationships (...186 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 83,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 82,
+      "elapsed": 0.0032276669999191654,
+      "elapsed_instrumentation": 0.00008245799995165726,
+      "return_value": {
+        "class": "Integer",
+        "value": "286",
+        "object_id": 573
+      }
+    },
+    {
+      "id": 84,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ? AND \"users\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 85,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 84,
+      "elapsed": 0.003483958,
+      "elapsed_instrumentation": 0.00006879200009279884
+    },
+    {
+      "id": 86,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 81,
+      "elapsed": 0.0041544999999132415,
+      "elapsed_instrumentation": 0.00009029100010593538
+    },
+    {
+      "id": 87,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "follow",
+      "path": "app/models/user.rb",
+      "lineno": 97,
+      "static": false,
+      "parameters": [
+        {
+          "name": "other_user",
+          "class": "User",
+          "object_id": 95860,
+          "value": "#<User:0x0000ffffaa696360>",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "User",
+        "object_id": 95860,
+        "value": "#<User:0x0000ffffaa696360>"
+      }
+    },
+    {
+      "id": 88,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 87,
+      "elapsed": 0.0000033339999845338752,
+      "elapsed_instrumentation": 0.00007962499989844218
+    },
+    {
+      "id": 89,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "following?",
+      "path": "app/models/user.rb",
+      "lineno": 107,
+      "static": false,
+      "parameters": [
+        {
+          "name": "other_user",
+          "class": "User",
+          "object_id": 95860,
+          "value": "#<User:0x0000ffffaa696360>",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "User",
+        "object_id": 95860,
+        "value": "#<User:0x0000ffffaa696360>"
+      }
+    },
+    {
+      "id": 90,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 96400,
+          "value": "  \u001b[1m\u001b[36mUser Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"users\" INNER JOIN \"relationships (...186 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 91,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 90,
+      "elapsed": 0.00266191700006857,
+      "elapsed_instrumentation": 0.0001299579998885747,
+      "return_value": {
+        "class": "Integer",
+        "value": "286",
+        "object_id": 573
+      }
+    },
+    {
+      "id": 92,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ? AND \"users\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 93,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 92,
+      "elapsed": 0.0029915,
+      "elapsed_instrumentation": 0.00005741699987993343
+    },
+    {
+      "id": 94,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 89,
+      "elapsed": 0.0036192090001350152,
+      "elapsed_instrumentation": 0.000025583000024198554
+    },
+    {
+      "id": 95,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 96420,
+          "value": "  \u001b[1m\u001b[36mTRANSACTION (1.6ms)\u001b[0m  \u001b[1m\u001b[31mrollback transaction\u001b[0m\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 96,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 95,
+      "elapsed": 0.003364082999951279,
+      "elapsed_instrumentation": 0.0001104170000871818,
+      "return_value": {
+        "class": "Integer",
+        "value": "70",
+        "object_id": 141
+      }
+    },
+    {
+      "id": 97,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "rollback transaction",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 98,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 97,
+      "elapsed": 0.005134458,
+      "elapsed_instrumentation": 0.00006800000005569018
+    },
+    {
+      "id": 99,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 96440,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 53900,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffab7824a8>"
+      }
+    },
+    {
+      "id": 100,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 99,
+      "elapsed": 0.0000012089999472664203,
+      "elapsed_instrumentation": 0.00007387499999822467,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 53920,
+        "size": 0
+      }
+    },
+    {
+      "id": 101,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 96440,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 53900,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffab7824a8>"
+      }
+    },
+    {
+      "id": 102,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 101,
+      "elapsed": 0.000014875000033498509,
+      "elapsed_instrumentation": 0.00003737499991984805,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000ffffab782138 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffffab781fd0 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb]",
+        "object_id": 53940,
+        "size": 2
+      }
+    }
+  ],
+  "version": "1.12.0",
+  "metadata": {
+    "app": "sample_rails_app",
+    "language": {
+      "name": "ruby",
+      "engine": "ruby",
+      "version": "3.1.2"
+    },
+    "client": {
+      "name": "appmap",
+      "url": "https://github.com/applandinc/appmap-ruby",
+      "version": "0.102.2"
+    },
+    "frameworks": [
+      {
+        "name": "rails",
+        "version": "7.0.4"
+      },
+      {
+        "name": "minitest",
+        "version": "5.15.0"
+      }
+    ],
+    "git": {
+      "repository": "https://github.com/land-of-apps/sample_rails_app.git",
+      "branch": "appmap-configured",
+      "commit": "e176455318c46ff6f7cc9d3e547b64c34c903efe",
+      "git_last_annotated_tag": null,
+      "git_last_tag": null,
+      "git_commits_since_last_annotated_tag": null,
+      "git_commits_since_last_tag": null
+    },
+    "name": "User should follow and unfollow a user",
+    "source_location": "test/models/user_test.rb:80",
+    "recorder": {
+      "name": "minitest",
+      "type": "tests"
+    },
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "name": "activesupport",
+      "type": "package",
+      "children": [
+        {
+          "name": "ActiveSupport",
+          "type": "class",
+          "children": [
+            {
+              "name": "Callbacks",
+              "type": "class",
+              "children": [
+                {
+                  "name": "CallbackSequence",
+                  "type": "class",
+                  "children": [
+                    {
+                      "name": "invoke_before",
+                      "type": "function",
+                      "labels": [
+                        "mvc.before_action"
+                      ],
+                      "static": false,
+                      "location": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb:594"
+                    },
+                    {
+                      "name": "invoke_after",
+                      "type": "function",
+                      "labels": [
+                        "mvc.after_action"
+                      ],
+                      "static": false,
+                      "location": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb:598"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "logger",
+      "type": "package",
+      "children": [
+        {
+          "name": "Logger",
+          "type": "class",
+          "children": [
+            {
+              "name": "LogDevice",
+              "type": "class",
+              "children": [
+                {
+                  "name": "write",
+                  "type": "function",
+                  "labels": [
+                    "log"
+                  ],
+                  "static": false,
+                  "location": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb:31"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "openssl",
+      "type": "package",
+      "children": [
+        {
+          "name": "OpenSSL",
+          "type": "class",
+          "children": [
+            {
+              "name": "Random",
+              "type": "class",
+              "children": [
+                {
+                  "name": "random_bytes",
+                  "type": "function",
+                  "labels": [
+                    "random.secure"
+                  ],
+                  "static": true,
+                  "location": "OpenSSL::Random.random_bytes"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "app/models",
+      "type": "package",
+      "children": [
+        {
+          "name": "User",
+          "type": "class",
+          "children": [
+            {
+              "name": "following?",
+              "type": "function",
+              "static": false,
+              "location": "app/models/user.rb:107"
+            },
+            {
+              "name": "follow",
+              "type": "function",
+              "static": false,
+              "location": "app/models/user.rb:97"
+            },
+            {
+              "name": "unfollow",
+              "type": "function",
+              "static": false,
+              "location": "app/models/user.rb:102"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "database",
+      "name": "Database",
+      "children": [
+        {
+          "type": "query",
+          "name": "begin transaction"
+        },
+        {
+          "type": "query",
+          "name": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?"
+        },
+        {
+          "type": "query",
+          "name": "SELECT 1 AS one FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ? AND \"users\".\"id\" = ? LIMIT ?"
+        },
+        {
+          "type": "query",
+          "name": "SAVEPOINT active_record_1"
+        },
+        {
+          "type": "query",
+          "name": "INSERT INTO \"relationships\" (\"follower_id\", \"followed_id\", \"created_at\", \"updated_at\") VALUES (?, ?, ?, ?)"
+        },
+        {
+          "type": "query",
+          "name": "RELEASE SAVEPOINT active_record_1"
+        },
+        {
+          "type": "query",
+          "name": "SELECT 1 AS one FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"follower_id\" WHERE \"relationships\".\"followed_id\" = ? AND \"users\".\"id\" = ? LIMIT ?"
+        },
+        {
+          "type": "query",
+          "name": "DELETE FROM \"relationships\" WHERE \"relationships\".\"follower_id\" = ? AND \"relationships\".\"followed_id\" = ?"
+        },
+        {
+          "type": "query",
+          "name": "rollback transaction"
+        }
+      ]
+    }
+  ]
+}

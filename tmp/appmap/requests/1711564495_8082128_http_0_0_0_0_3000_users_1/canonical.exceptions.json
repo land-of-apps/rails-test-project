@@ -1,0 +1,13 @@
+[
+  {
+    "class": "TypeError",
+    "message": "can't dump IO",
+    "stack": [
+      "/usr/local/bundle/gems/appmap-0.102.2/lib/appmap/hook/method/ruby3.rb:40",
+      "Marshal.dump",
+      "app/views/users/show.html.erb",
+      "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_controller/metal/renderers.rb:140"
+    ],
+    "location": "/usr/local/bundle/gems/appmap-0.102.2/lib/appmap/hook/method/ruby3.rb:40"
+  }
+]

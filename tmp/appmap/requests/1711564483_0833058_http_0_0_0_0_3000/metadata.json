@@ -1,0 +1,34 @@
+{
+  "app": "sample_rails_app",
+  "language": {
+    "name": "ruby",
+    "engine": "ruby",
+    "version": "3.1.2"
+  },
+  "client": {
+    "name": "appmap",
+    "url": "https://github.com/applandinc/appmap-ruby",
+    "version": "0.102.2"
+  },
+  "frameworks": [
+    {
+      "name": "rails",
+      "version": "7.0.4"
+    }
+  ],
+  "git": {
+    "repository": "https://github.com/land-of-apps/sample_rails_app.git",
+    "branch": "appmap-configured",
+    "commit": "e176455318c46ff6f7cc9d3e547b64c34c903efe",
+    "git_last_annotated_tag": null,
+    "git_last_tag": null,
+    "git_commits_since_last_annotated_tag": null,
+    "git_commits_since_last_tag": null
+  },
+  "name": "GET / (200) - 18:34:43.083",
+  "timestamp": 1711564483.0833058,
+  "recorder": {
+    "name": "rack",
+    "type": "requests"
+  }
+}

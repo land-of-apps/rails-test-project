@@ -1,0 +1,4201 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 91640,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 28220,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffab8295f0>"
+      }
+    },
+    {
+      "id": 2,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 1,
+      "elapsed": 6.24999984211172e-7,
+      "elapsed_instrumentation": 0.00006887500012453529,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 28240,
+        "size": 0
+      }
+    },
+    {
+      "id": 3,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 91640,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 28220,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffab8295f0>"
+      }
+    },
+    {
+      "id": 4,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 3,
+      "elapsed": 0.000007291999963854323,
+      "elapsed_instrumentation": 0.0001265829998828849,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000ffffab828a38 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb]",
+        "object_id": 28260,
+        "size": 1
+      }
+    },
+    {
+      "id": 5,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 91660,
+          "value": "  \u001b[1m\u001b[36mTRANSACTION (0.0ms)\u001b[0m  \u001b[1m\u001b[36mbegin transaction\u001b[0m\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 6,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 5,
+      "elapsed": 0.002469332999908147,
+      "elapsed_instrumentation": 0.00009329100021204795,
+      "return_value": {
+        "class": "Integer",
+        "value": "67",
+        "object_id": 135
+      }
+    },
+    {
+      "id": 7,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "begin transaction",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 8,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 7,
+      "elapsed": 0.002668541,
+      "elapsed_instrumentation": 0.000056915999948614626
+    },
+    {
+      "id": 9,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 91680,
+          "value": "-----------------------------------------------\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 10,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 9,
+      "elapsed": 0.0027615839999270975,
+      "elapsed_instrumentation": 0.00009020799984682526,
+      "return_value": {
+        "class": "Integer",
+        "value": "48",
+        "object_id": 97
+      }
+    },
+    {
+      "id": 11,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 91700,
+          "value": "UserTest: test_feed_should_have_the_right_posts\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 12,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 11,
+      "elapsed": 0.0023933749998832354,
+      "elapsed_instrumentation": 0.00010012500001721492,
+      "return_value": {
+        "class": "Integer",
+        "value": "48",
+        "object_id": 97
+      }
+    },
+    {
+      "id": 13,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 91720,
+          "value": "-----------------------------------------------\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 14,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 13,
+      "elapsed": 0.003031499999906373,
+      "elapsed_instrumentation": 0.00010833300007107027,
+      "return_value": {
+        "class": "Integer",
+        "value": "48",
+        "object_id": 97
+      }
+    },
+    {
+      "id": 15,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "OpenSSL::Random",
+      "method_id": "random_bytes",
+      "path": "OpenSSL::Random.random_bytes",
+      "static": true,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "Integer",
+          "object_id": 33,
+          "value": "16",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 38600,
+        "value": "OpenSSL::Random"
+      }
+    },
+    {
+      "id": 16,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 15,
+      "elapsed": 0.00000883300003806653,
+      "elapsed_instrumentation": 0.00007458300024154596,
+      "return_value": {
+        "class": "String",
+        "value": "qH\u000f_$___v_m__|G_",
+        "object_id": 91740
+      }
+    },
+    {
+      "id": 17,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 91760,
+          "value": "  \u001b[1m\u001b[36mUser Load (0.7ms)\u001b[0m  \u001b[1m\u001b[34mSELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMI (...43 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 18,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 17,
+      "elapsed": 0.0025010829999700945,
+      "elapsed_instrumentation": 0.00010191700016548566,
+      "return_value": {
+        "class": "Integer",
+        "value": "143",
+        "object_id": 287
+      }
+    },
+    {
+      "id": 19,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 20,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 19,
+      "elapsed": 0.003380292,
+      "elapsed_instrumentation": 0.00006204100009199465
+    },
+    {
+      "id": 21,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 91780,
+          "value": "  \u001b[1m\u001b[36mUser Load (0.0ms)\u001b[0m  \u001b[1m\u001b[34mSELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMI (...43 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 22,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 21,
+      "elapsed": 0.0021839579999323178,
+      "elapsed_instrumentation": 0.00008520899996256048,
+      "return_value": {
+        "class": "Integer",
+        "value": "143",
+        "object_id": 287
+      }
+    },
+    {
+      "id": 23,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 24,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 23,
+      "elapsed": 0.002387542,
+      "elapsed_instrumentation": 0.00005479199990077177
+    },
+    {
+      "id": 25,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 91800,
+          "value": "  \u001b[1m\u001b[36mUser Load (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMI (...43 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 26,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 25,
+      "elapsed": 0.004812332999790669,
+      "elapsed_instrumentation": 0.00012837500003115565,
+      "return_value": {
+        "class": "Integer",
+        "value": "143",
+        "object_id": 287
+      }
+    },
+    {
+      "id": 27,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 28,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 27,
+      "elapsed": 0.005079958,
+      "elapsed_instrumentation": 0.00007450000020980951
+    },
+    {
+      "id": 29,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 91840,
+          "value": "  \u001b[1m\u001b[36mMicropost Load (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT \"microposts\".* FROM \"microposts\" WHERE \"micro (...91 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 30,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 29,
+      "elapsed": 0.0003466670000307204,
+      "elapsed_instrumentation": 0.00010604199997032993,
+      "return_value": {
+        "class": "Integer",
+        "value": "191",
+        "object_id": 383
+      }
+    },
+    {
+      "id": 31,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT \"microposts\".* FROM \"microposts\" WHERE \"microposts\".\"user_id\" = ? ORDER BY \"microposts\".\"created_at\" DESC",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 32,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 31,
+      "elapsed": 0.000659792,
+      "elapsed_instrumentation": 0.00005575000000135333
+    },
+    {
+      "id": 33,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 34,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 33,
+      "elapsed": 0.00023487499993279926,
+      "elapsed_instrumentation": 0.00010154099982173648,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaaa5bdd8>",
+        "object_id": 91880
+      }
+    },
+    {
+      "id": 35,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 91940,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.2ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...211 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 36,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 35,
+      "elapsed": 0.003812458000084007,
+      "elapsed_instrumentation": 0.00010354200003348524,
+      "return_value": {
+        "class": "Integer",
+        "value": "311",
+        "object_id": 623
+      }
+    },
+    {
+      "id": 37,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 38,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 37,
+      "elapsed": 0.004182583,
+      "elapsed_instrumentation": 0.00007662500001970329
+    },
+    {
+      "id": 39,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 40,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 39,
+      "elapsed": 0.00017695800011097162,
+      "elapsed_instrumentation": 0.00009104099990508985,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaaa61eb8>",
+        "object_id": 91960
+      }
+    },
+    {
+      "id": 41,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 91980,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.2ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 42,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 41,
+      "elapsed": 0.004769708999901923,
+      "elapsed_instrumentation": 0.00009262399998988258,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 43,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 44,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 43,
+      "elapsed": 0.005131125,
+      "elapsed_instrumentation": 0.00006800000005569018
+    },
+    {
+      "id": 45,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92000,
+          "value": "  \u001b[1m\u001b[36mMicropost Load (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT \"microposts\".* FROM \"microposts\" WHERE \"micro (...91 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 46,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 45,
+      "elapsed": 0.007020208000085404,
+      "elapsed_instrumentation": 0.00013058400008958415,
+      "return_value": {
+        "class": "Integer",
+        "value": "191",
+        "object_id": 383
+      }
+    },
+    {
+      "id": 47,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT \"microposts\".* FROM \"microposts\" WHERE \"microposts\".\"user_id\" = ? ORDER BY \"microposts\".\"created_at\" DESC",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 48,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 47,
+      "elapsed": 0.007329958,
+      "elapsed_instrumentation": 0.00007079100009832473
+    },
+    {
+      "id": 49,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 50,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 49,
+      "elapsed": 0.0001554579998810368,
+      "elapsed_instrumentation": 0.00017870800002128817,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaaa3a1d8>",
+        "object_id": 92020
+      }
+    },
+    {
+      "id": 51,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92040,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 52,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 51,
+      "elapsed": 0.007154417000037938,
+      "elapsed_instrumentation": 0.00008412499983023736,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 53,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 54,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 53,
+      "elapsed": 0.007438167,
+      "elapsed_instrumentation": 0.00007212499986053444
+    },
+    {
+      "id": 55,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 56,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 55,
+      "elapsed": 0.0001530829999865091,
+      "elapsed_instrumentation": 0.00008350000007339986,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaaa3ce38>",
+        "object_id": 92060
+      }
+    },
+    {
+      "id": 57,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92080,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 58,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 57,
+      "elapsed": 0.006767999999965468,
+      "elapsed_instrumentation": 0.00013587599983111431,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 59,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 60,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 59,
+      "elapsed": 0.007103791,
+      "elapsed_instrumentation": 0.00012891699998363038
+    },
+    {
+      "id": 61,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 62,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 61,
+      "elapsed": 0.0002430829999866546,
+      "elapsed_instrumentation": 0.00020933399991918122,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaaa47dd8>",
+        "object_id": 92100
+      }
+    },
+    {
+      "id": 63,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92120,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...212 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 64,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 63,
+      "elapsed": 0.004895624999790016,
+      "elapsed_instrumentation": 0.00009679200002210564,
+      "return_value": {
+        "class": "Integer",
+        "value": "312",
+        "object_id": 625
+      }
+    },
+    {
+      "id": 65,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 66,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 65,
+      "elapsed": 0.005203875,
+      "elapsed_instrumentation": 0.00006712499998684507
+    },
+    {
+      "id": 67,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 68,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 67,
+      "elapsed": 0.0001906250001866283,
+      "elapsed_instrumentation": 0.00008558399986213772,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaaa4b118>",
+        "object_id": 92140
+      }
+    },
+    {
+      "id": 69,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92160,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...214 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 70,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 69,
+      "elapsed": 0.0023789580000084243,
+      "elapsed_instrumentation": 0.00008779200015851529,
+      "return_value": {
+        "class": "Integer",
+        "value": "314",
+        "object_id": 629
+      }
+    },
+    {
+      "id": 71,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 72,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 71,
+      "elapsed": 0.002678209,
+      "elapsed_instrumentation": 0.00029229100005068176
+    },
+    {
+      "id": 73,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 74,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 73,
+      "elapsed": 0.00014691699993818474,
+      "elapsed_instrumentation": 0.00007620699989274726,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaaa4da08>",
+        "object_id": 92180
+      }
+    },
+    {
+      "id": 75,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92200,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 76,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 75,
+      "elapsed": 0.0009451250000438449,
+      "elapsed_instrumentation": 0.00006687599989163573,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 77,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 78,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 77,
+      "elapsed": 0.001191167,
+      "elapsed_instrumentation": 0.00004416600017975725
+    },
+    {
+      "id": 79,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 80,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 79,
+      "elapsed": 0.00011633400004029681,
+      "elapsed_instrumentation": 0.00006291600016083976,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaaa50b68>",
+        "object_id": 92220
+      }
+    },
+    {
+      "id": 81,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92240,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 82,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 81,
+      "elapsed": 0.0013825830001223949,
+      "elapsed_instrumentation": 0.00007525099999838858,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 83,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 84,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 83,
+      "elapsed": 0.001642333,
+      "elapsed_instrumentation": 0.00005370799999582232
+    },
+    {
+      "id": 85,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 86,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 85,
+      "elapsed": 0.00013595799987342616,
+      "elapsed_instrumentation": 0.00006916600023032515,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaaa200a8>",
+        "object_id": 92260
+      }
+    },
+    {
+      "id": 87,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92280,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 88,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 87,
+      "elapsed": 0.0009832920000008016,
+      "elapsed_instrumentation": 0.00006412500010810618,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 89,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 90,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 89,
+      "elapsed": 0.001217333,
+      "elapsed_instrumentation": 0.000048583000079815974
+    },
+    {
+      "id": 91,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 92,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 91,
+      "elapsed": 0.00011462499992376252,
+      "elapsed_instrumentation": 0.00006212500011315569,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaaa2b138>",
+        "object_id": 92300
+      }
+    },
+    {
+      "id": 93,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92320,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 94,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 93,
+      "elapsed": 0.0021027909999702388,
+      "elapsed_instrumentation": 0.00009237500012204691,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 95,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 96,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 95,
+      "elapsed": 0.002413917,
+      "elapsed_instrumentation": 0.00007849999997233681
+    },
+    {
+      "id": 97,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 98,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 97,
+      "elapsed": 0.00022525000008499774,
+      "elapsed_instrumentation": 0.0001056249998327985,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaaa2e630>",
+        "object_id": 92340
+      }
+    },
+    {
+      "id": 99,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92360,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.2ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 100,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 99,
+      "elapsed": 0.0007481669999833684,
+      "elapsed_instrumentation": 0.00008887500007404014,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 101,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 102,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 101,
+      "elapsed": 0.001079417,
+      "elapsed_instrumentation": 0.00004549999994196696
+    },
+    {
+      "id": 103,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 104,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 103,
+      "elapsed": 0.00012412499995662074,
+      "elapsed_instrumentation": 0.00006400000006578921,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaaa31ce0>",
+        "object_id": 92380
+      }
+    },
+    {
+      "id": 105,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92400,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 106,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 105,
+      "elapsed": 0.00038674999996146653,
+      "elapsed_instrumentation": 0.00007041599997137382,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 107,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 108,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 107,
+      "elapsed": 0.00061375,
+      "elapsed_instrumentation": 0.00004170800002611941
+    },
+    {
+      "id": 109,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 110,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 109,
+      "elapsed": 0.00013179200004742597,
+      "elapsed_instrumentation": 0.000052666999863504316,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaaa34760>",
+        "object_id": 92420
+      }
+    },
+    {
+      "id": 111,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92440,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 112,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 111,
+      "elapsed": 0.0004238750000240543,
+      "elapsed_instrumentation": 0.00008416700006819156,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 113,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 114,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 113,
+      "elapsed": 0.000674458,
+      "elapsed_instrumentation": 0.000050874999942607246
+    },
+    {
+      "id": 115,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 116,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 115,
+      "elapsed": 0.00012595899988809833,
+      "elapsed_instrumentation": 0.00007012500009295763,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaaa0bb80>",
+        "object_id": 92460
+      }
+    },
+    {
+      "id": 117,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92480,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 118,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 117,
+      "elapsed": 0.0005754159999469266,
+      "elapsed_instrumentation": 0.000053584000170303625,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 119,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 120,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 119,
+      "elapsed": 0.00078325,
+      "elapsed_instrumentation": 0.00003895800000464078
+    },
+    {
+      "id": 121,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 122,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 121,
+      "elapsed": 0.00009887500004879257,
+      "elapsed_instrumentation": 0.00005445900001177506,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaaa0eda8>",
+        "object_id": 92500
+      }
+    },
+    {
+      "id": 123,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92520,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.2ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 124,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 123,
+      "elapsed": 0.00034633300015229906,
+      "elapsed_instrumentation": 0.00006274999986999319,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 125,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 126,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 125,
+      "elapsed": 0.000627458,
+      "elapsed_instrumentation": 0.00003845800006274658
+    },
+    {
+      "id": 127,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 128,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 127,
+      "elapsed": 0.00021049999986644252,
+      "elapsed_instrumentation": 0.00007370900016212545,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaaa122a0>",
+        "object_id": 92540
+      }
+    },
+    {
+      "id": 129,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92560,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 130,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 129,
+      "elapsed": 0.0014627499999733118,
+      "elapsed_instrumentation": 0.00008537500002603338,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 131,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 132,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 131,
+      "elapsed": 0.001719208,
+      "elapsed_instrumentation": 0.00006533299983857432
+    },
+    {
+      "id": 133,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 134,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 133,
+      "elapsed": 0.00014912500000718865,
+      "elapsed_instrumentation": 0.00007695900012549828,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaaa15928>",
+        "object_id": 92580
+      }
+    },
+    {
+      "id": 135,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92600,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 136,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 135,
+      "elapsed": 0.0003094170001531893,
+      "elapsed_instrumentation": 0.00005404199987424363,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 137,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 138,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 137,
+      "elapsed": 0.00054075,
+      "elapsed_instrumentation": 0.00003012499996657425
+    },
+    {
+      "id": 139,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 140,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 139,
+      "elapsed": 0.00008333400000992697,
+      "elapsed_instrumentation": 0.000043624999989333446,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaaa18d80>",
+        "object_id": 92620
+      }
+    },
+    {
+      "id": 141,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92640,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 142,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 141,
+      "elapsed": 0.0014591669998935686,
+      "elapsed_instrumentation": 0.00015774999997120176,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 143,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 144,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 143,
+      "elapsed": 0.001743959,
+      "elapsed_instrumentation": 0.00005429099996945297
+    },
+    {
+      "id": 145,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 146,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 145,
+      "elapsed": 0.0001242499999989377,
+      "elapsed_instrumentation": 0.00006495800016637077,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa9edbf8>",
+        "object_id": 92660
+      }
+    },
+    {
+      "id": 147,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92680,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 148,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 147,
+      "elapsed": 0.0005530000000817381,
+      "elapsed_instrumentation": 0.00008404199979850091,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 149,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 150,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 149,
+      "elapsed": 0.000821209,
+      "elapsed_instrumentation": 0.00004558399996312801
+    },
+    {
+      "id": 151,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 152,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 151,
+      "elapsed": 0.00011433400004534633,
+      "elapsed_instrumentation": 0.000054332999752659816,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa9f0f60>",
+        "object_id": 92700
+      }
+    },
+    {
+      "id": 153,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92720,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 154,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 153,
+      "elapsed": 0.0009844580001754366,
+      "elapsed_instrumentation": 0.00007174999996095721,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 155,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 156,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 155,
+      "elapsed": 0.001233958,
+      "elapsed_instrumentation": 0.00004612500015355181
+    },
+    {
+      "id": 157,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 158,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 157,
+      "elapsed": 0.00010729200016612594,
+      "elapsed_instrumentation": 0.00005699899998035107,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa9f48e0>",
+        "object_id": 92740
+      }
+    },
+    {
+      "id": 159,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92760,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 160,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 159,
+      "elapsed": 0.0011897080000835558,
+      "elapsed_instrumentation": 0.00010449999990669312,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 161,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 162,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 161,
+      "elapsed": 0.001450333,
+      "elapsed_instrumentation": 0.0000631249999969441
+    },
+    {
+      "id": 163,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 164,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 163,
+      "elapsed": 0.0001514170000973536,
+      "elapsed_instrumentation": 0.00008141599982991465,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa9ffe70>",
+        "object_id": 92780
+      }
+    },
+    {
+      "id": 165,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92800,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 166,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 165,
+      "elapsed": 0.0003261249999013671,
+      "elapsed_instrumentation": 0.00005429199995887757,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 167,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 168,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 167,
+      "elapsed": 0.000567833,
+      "elapsed_instrumentation": 0.000023625000039828592
+    },
+    {
+      "id": 169,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 170,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 169,
+      "elapsed": 0.00007420799988722138,
+      "elapsed_instrumentation": 0.00003754200020011922,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaaa031d8>",
+        "object_id": 92820
+      }
+    },
+    {
+      "id": 171,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92840,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 172,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 171,
+      "elapsed": 0.00042595800005074125,
+      "elapsed_instrumentation": 0.00018899900010183046,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 173,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 174,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 173,
+      "elapsed": 0.0007255,
+      "elapsed_instrumentation": 0.00003416600020500482
+    },
+    {
+      "id": 175,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 176,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 175,
+      "elapsed": 0.00009599999998499698,
+      "elapsed_instrumentation": 0.000046124999926178134,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa9cc5c0>",
+        "object_id": 92860
+      }
+    },
+    {
+      "id": 177,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92880,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 178,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 177,
+      "elapsed": 0.0002717500001381268,
+      "elapsed_instrumentation": 0.000045124999815016054,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 179,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 180,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 179,
+      "elapsed": 0.000462333,
+      "elapsed_instrumentation": 0.00002779199985525338
+    },
+    {
+      "id": 181,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 182,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 181,
+      "elapsed": 0.00007554200010417844,
+      "elapsed_instrumentation": 0.00003737499991984805,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa9d77b8>",
+        "object_id": 92900
+      }
+    },
+    {
+      "id": 183,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92920,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 184,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 183,
+      "elapsed": 0.0004979159998583782,
+      "elapsed_instrumentation": 0.00006245900021895068,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 185,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 186,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 185,
+      "elapsed": 0.000672375,
+      "elapsed_instrumentation": 0.00004737499989460048
+    },
+    {
+      "id": 187,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 188,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 187,
+      "elapsed": 0.00011141600020891929,
+      "elapsed_instrumentation": 0.00005987499980619759,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa9d9ae0>",
+        "object_id": 92940
+      }
+    },
+    {
+      "id": 189,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 92960,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 190,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 189,
+      "elapsed": 0.0002294160001383716,
+      "elapsed_instrumentation": 0.00006066700007067993,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 191,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 192,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 191,
+      "elapsed": 0.000464542,
+      "elapsed_instrumentation": 0.00003883299996232381
+    },
+    {
+      "id": 193,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 194,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 193,
+      "elapsed": 0.00009387499994772952,
+      "elapsed_instrumentation": 0.000050125999905503704,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa9e1d80>",
+        "object_id": 92980
+      }
+    },
+    {
+      "id": 195,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 93000,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 196,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 195,
+      "elapsed": 0.000309415999936391,
+      "elapsed_instrumentation": 0.000044417000253815786,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 197,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 198,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 197,
+      "elapsed": 0.000479833,
+      "elapsed_instrumentation": 0.000025666000055935
+    },
+    {
+      "id": 199,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 200,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 199,
+      "elapsed": 0.00006887500012453529,
+      "elapsed_instrumentation": 0.00003758299999390147,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa9eaac0>",
+        "object_id": 93020
+      }
+    },
+    {
+      "id": 201,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 93040,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 202,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 201,
+      "elapsed": 0.0003780829999868729,
+      "elapsed_instrumentation": 0.00005504199998540571,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 203,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 204,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 203,
+      "elapsed": 0.000534625,
+      "elapsed_instrumentation": 0.000044458000047598034
+    },
+    {
+      "id": 205,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 206,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 205,
+      "elapsed": 0.00010929200016107643,
+      "elapsed_instrumentation": 0.00005612399991150596,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa9ad508>",
+        "object_id": 93060
+      }
+    },
+    {
+      "id": 207,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 93080,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 208,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 207,
+      "elapsed": 0.0006299159999798576,
+      "elapsed_instrumentation": 0.00005237499999566353,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 209,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 210,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 209,
+      "elapsed": 0.000846791,
+      "elapsed_instrumentation": 0.0000295419999929436
+    },
+    {
+      "id": 211,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 212,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 211,
+      "elapsed": 0.00008170799992512912,
+      "elapsed_instrumentation": 0.00003920900007869932,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa9b6c98>",
+        "object_id": 93100
+      }
+    },
+    {
+      "id": 213,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 93120,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 214,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 213,
+      "elapsed": 0.00043779099996754667,
+      "elapsed_instrumentation": 0.00004341699991528003,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 215,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 216,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 215,
+      "elapsed": 0.000588917,
+      "elapsed_instrumentation": 0.000027084000066679437
+    },
+    {
+      "id": 217,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 218,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 217,
+      "elapsed": 0.00007554199987680477,
+      "elapsed_instrumentation": 0.00003670800015243003,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa9b9df8>",
+        "object_id": 93140
+      }
+    },
+    {
+      "id": 219,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 93160,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 220,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 219,
+      "elapsed": 0.000275999999985288,
+      "elapsed_instrumentation": 0.00004029100000479957,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 221,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 222,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 221,
+      "elapsed": 0.000422541,
+      "elapsed_instrumentation": 0.000024124999981722794
+    },
+    {
+      "id": 223,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 224,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 223,
+      "elapsed": 0.00006875000008221832,
+      "elapsed_instrumentation": 0.00003375000005689799,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa9bd228>",
+        "object_id": 93180
+      }
+    },
+    {
+      "id": 225,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 93200,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...212 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 226,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 225,
+      "elapsed": 0.0002248750001854205,
+      "elapsed_instrumentation": 0.00003487499998300336,
+      "return_value": {
+        "class": "Integer",
+        "value": "312",
+        "object_id": 625
+      }
+    },
+    {
+      "id": 227,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 228,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 227,
+      "elapsed": 0.000353208,
+      "elapsed_instrumentation": 0.000020583999912560103
+    },
+    {
+      "id": 229,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 230,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 229,
+      "elapsed": 0.00006512499999189458,
+      "elapsed_instrumentation": 0.00003154199998789409,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa9c0450>",
+        "object_id": 93220
+      }
+    },
+    {
+      "id": 231,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 93240,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...212 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 232,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 231,
+      "elapsed": 0.0006414169999970909,
+      "elapsed_instrumentation": 0.000040875000195228495,
+      "return_value": {
+        "class": "Integer",
+        "value": "312",
+        "object_id": 625
+      }
+    },
+    {
+      "id": 233,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 234,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 233,
+      "elapsed": 0.000770916,
+      "elapsed_instrumentation": 0.000027750000072046532
+    },
+    {
+      "id": 235,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 236,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 235,
+      "elapsed": 0.00009920900015458756,
+      "elapsed_instrumentation": 0.00013645800004269404,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa9c80d8>",
+        "object_id": 93260
+      }
+    },
+    {
+      "id": 237,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 93280,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...212 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 238,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 237,
+      "elapsed": 0.00023054200005390157,
+      "elapsed_instrumentation": 0.00005020800017518923,
+      "return_value": {
+        "class": "Integer",
+        "value": "312",
+        "object_id": 625
+      }
+    },
+    {
+      "id": 239,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 240,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 239,
+      "elapsed": 0.000396375,
+      "elapsed_instrumentation": 0.000027291999913359177
+    },
+    {
+      "id": 241,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 242,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 241,
+      "elapsed": 0.00008320800020555907,
+      "elapsed_instrumentation": 0.00004345899992586055,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa997370>",
+        "object_id": 93300
+      }
+    },
+    {
+      "id": 243,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 93320,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...212 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 244,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 243,
+      "elapsed": 0.00025374999995619874,
+      "elapsed_instrumentation": 0.00008004200003597362,
+      "return_value": {
+        "class": "Integer",
+        "value": "312",
+        "object_id": 625
+      }
+    },
+    {
+      "id": 245,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 246,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 245,
+      "elapsed": 0.000513916,
+      "elapsed_instrumentation": 0.00003554199997779506
+    },
+    {
+      "id": 247,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 248,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 247,
+      "elapsed": 0.00010991599992848933,
+      "elapsed_instrumentation": 0.00005679200012309593,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa99a908>",
+        "object_id": 93340
+      }
+    },
+    {
+      "id": 249,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 93360,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 250,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 249,
+      "elapsed": 0.00022041700003683218,
+      "elapsed_instrumentation": 0.00005020899993724015,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 251,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 252,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 251,
+      "elapsed": 0.000391167,
+      "elapsed_instrumentation": 0.0000273750001724693
+    },
+    {
+      "id": 253,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 93380,
+          "value": "  \u001b[1m\u001b[36mMicropost Load (0.0ms)\u001b[0m  \u001b[1m\u001b[34mSELECT \"microposts\".* FROM \"microposts\" WHERE \"micro (...91 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 254,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 253,
+      "elapsed": 0.0003338329997859546,
+      "elapsed_instrumentation": 0.00005141700012245565,
+      "return_value": {
+        "class": "Integer",
+        "value": "191",
+        "object_id": 383
+      }
+    },
+    {
+      "id": 255,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT \"microposts\".* FROM \"microposts\" WHERE \"microposts\".\"user_id\" = ? ORDER BY \"microposts\".\"created_at\" DESC",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 256,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 255,
+      "elapsed": 0.000458792,
+      "elapsed_instrumentation": 0.000021583000034297584
+    },
+    {
+      "id": 257,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 93400,
+        "value": "#<User:0x0000ffffaaad6d30>"
+      }
+    },
+    {
+      "id": 258,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 257,
+      "elapsed": 0.00009245799992640968,
+      "elapsed_instrumentation": 0.000043541000195546076,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa9a6e60>",
+        "object_id": 93420
+      }
+    },
+    {
+      "id": 259,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 93440,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 260,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 259,
+      "elapsed": 0.0005065830000603455,
+      "elapsed_instrumentation": 0.00009391700018568372,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 261,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 950961012)\n                     OR user_id = 950961012) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 262,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 261,
+      "elapsed": 0.00071425,
+      "elapsed_instrumentation": 0.000031167000088316854
+    },
+    {
+      "id": 263,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 93400,
+        "value": "#<User:0x0000ffffaaad6d30>"
+      }
+    },
+    {
+      "id": 264,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 263,
+      "elapsed": 0.00010050000014416582,
+      "elapsed_instrumentation": 0.00004254199984643492,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa9a97a0>",
+        "object_id": 93460
+      }
+    },
+    {
+      "id": 265,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 93480,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 266,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 265,
+      "elapsed": 0.0005706670001472958,
+      "elapsed_instrumentation": 0.000048915999968812685,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 267,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 950961012)\n                     OR user_id = 950961012) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 268,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 267,
+      "elapsed": 0.000735083,
+      "elapsed_instrumentation": 0.00003037500005120819
+    },
+    {
+      "id": 269,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 270,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 269,
+      "elapsed": 0.00008579199993619113,
+      "elapsed_instrumentation": 0.000045208000074126176,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa97be40>",
+        "object_id": 93500
+      }
+    },
+    {
+      "id": 271,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 93520,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 272,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 271,
+      "elapsed": 0.0007987920000687154,
+      "elapsed_instrumentation": 0.00013570899977821682,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 273,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 274,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 273,
+      "elapsed": 0.001083833,
+      "elapsed_instrumentation": 0.00010541599999669415
+    },
+    {
+      "id": 275,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "User",
+      "method_id": "feed",
+      "path": "app/models/user.rb",
+      "lineno": 88,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 91860,
+        "value": "#<User:0x0000ffffaaacd8c0>"
+      }
+    },
+    {
+      "id": 276,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 275,
+      "elapsed": 0.00022429199998441618,
+      "elapsed_instrumentation": 0.00013433300000542658,
+      "return_value": {
+        "class": "ActiveRecord::Relation",
+        "value": "#<Micropost::ActiveRecord_Relation:0x0000ffffaa97eed8>",
+        "object_id": 93540
+      }
+    },
+    {
+      "id": 277,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 93560,
+          "value": "  \u001b[1m\u001b[36mMicropost Exists? (0.2ms)\u001b[0m  \u001b[1m\u001b[34mSELECT 1 AS one FROM \"microposts\" WHERE (user_id  (...213 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 278,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 277,
+      "elapsed": 0.0027664159999858384,
+      "elapsed_instrumentation": 0.0002586250000149448,
+      "return_value": {
+        "class": "Integer",
+        "value": "313",
+        "object_id": 627
+      }
+    },
+    {
+      "id": 279,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 280,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 279,
+      "elapsed": 0.003363209,
+      "elapsed_instrumentation": 0.00028212499978508276
+    },
+    {
+      "id": 281,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 93580,
+          "value": "  \u001b[1m\u001b[36mTRANSACTION (0.1ms)\u001b[0m  \u001b[1m\u001b[31mrollback transaction\u001b[0m\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9040,
+        "value": "#<Logger::LogDevice:0x0000ffffab8fa588>"
+      }
+    },
+    {
+      "id": 282,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 281,
+      "elapsed": 0.0011423339999510063,
+      "elapsed_instrumentation": 0.00014104100000622566,
+      "return_value": {
+        "class": "Integer",
+        "value": "70",
+        "object_id": 141
+      }
+    },
+    {
+      "id": 283,
+      "event": "call",
+      "thread_id": 4520,
+      "sql_query": {
+        "sql": "rollback transaction",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 284,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 283,
+      "elapsed": 0.001452,
+      "elapsed_instrumentation": 0.00007133300005079946
+    },
+    {
+      "id": 285,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 93600,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 56140,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffab7824a8>"
+      }
+    },
+    {
+      "id": 286,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 285,
+      "elapsed": 0.0000032919999739533523,
+      "elapsed_instrumentation": 0.00010220800004390185,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 56160,
+        "size": 0
+      }
+    },
+    {
+      "id": 287,
+      "event": "call",
+      "thread_id": 4520,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 93600,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 56140,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffab7824a8>"
+      }
+    },
+    {
+      "id": 288,
+      "event": "return",
+      "thread_id": 4520,
+      "parent_id": 287,
+      "elapsed": 0.000016250000044237822,
+      "elapsed_instrumentation": 0.0001250830000572023,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000ffffab782138 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffffab781fd0 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb]",
+        "object_id": 56180,
+        "size": 2
+      }
+    }
+  ],
+  "version": "1.12.0",
+  "metadata": {
+    "app": "sample_rails_app",
+    "language": {
+      "name": "ruby",
+      "engine": "ruby",
+      "version": "3.1.2"
+    },
+    "client": {
+      "name": "appmap",
+      "url": "https://github.com/applandinc/appmap-ruby",
+      "version": "0.102.2"
+    },
+    "frameworks": [
+      {
+        "name": "rails",
+        "version": "7.0.4"
+      },
+      {
+        "name": "minitest",
+        "version": "5.15.0"
+      }
+    ],
+    "git": {
+      "repository": "https://github.com/land-of-apps/sample_rails_app.git",
+      "branch": "appmap-configured",
+      "commit": "e176455318c46ff6f7cc9d3e547b64c34c903efe",
+      "git_last_annotated_tag": null,
+      "git_last_tag": null,
+      "git_commits_since_last_annotated_tag": null,
+      "git_commits_since_last_tag": null
+    },
+    "name": "User feed should have the right posts",
+    "source_location": "test/models/user_test.rb:94",
+    "recorder": {
+      "name": "minitest",
+      "type": "tests"
+    },
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "name": "activesupport",
+      "type": "package",
+      "children": [
+        {
+          "name": "ActiveSupport",
+          "type": "class",
+          "children": [
+            {
+              "name": "Callbacks",
+              "type": "class",
+              "children": [
+                {
+                  "name": "CallbackSequence",
+                  "type": "class",
+                  "children": [
+                    {
+                      "name": "invoke_before",
+                      "type": "function",
+                      "labels": [
+                        "mvc.before_action"
+                      ],
+                      "static": false,
+                      "location": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb:594"
+                    },
+                    {
+                      "name": "invoke_after",
+                      "type": "function",
+                      "labels": [
+                        "mvc.after_action"
+                      ],
+                      "static": false,
+                      "location": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb:598"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "logger",
+      "type": "package",
+      "children": [
+        {
+          "name": "Logger",
+          "type": "class",
+          "children": [
+            {
+              "name": "LogDevice",
+              "type": "class",
+              "children": [
+                {
+                  "name": "write",
+                  "type": "function",
+                  "labels": [
+                    "log"
+                  ],
+                  "static": false,
+                  "location": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb:31"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "openssl",
+      "type": "package",
+      "children": [
+        {
+          "name": "OpenSSL",
+          "type": "class",
+          "children": [
+            {
+              "name": "Random",
+              "type": "class",
+              "children": [
+                {
+                  "name": "random_bytes",
+                  "type": "function",
+                  "labels": [
+                    "random.secure"
+                  ],
+                  "static": true,
+                  "location": "OpenSSL::Random.random_bytes"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "app/models",
+      "type": "package",
+      "children": [
+        {
+          "name": "User",
+          "type": "class",
+          "children": [
+            {
+              "name": "feed",
+              "type": "function",
+              "static": false,
+              "location": "app/models/user.rb:88"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "database",
+      "name": "Database",
+      "children": [
+        {
+          "type": "query",
+          "name": "begin transaction"
+        },
+        {
+          "type": "query",
+          "name": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?"
+        },
+        {
+          "type": "query",
+          "name": "SELECT \"microposts\".* FROM \"microposts\" WHERE \"microposts\".\"user_id\" = ? ORDER BY \"microposts\".\"created_at\" DESC"
+        },
+        {
+          "type": "query",
+          "name": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) AND \"microposts\".\"id\" = ? LIMIT ?"
+        },
+        {
+          "type": "query",
+          "name": "SELECT 1 AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 950961012)\n                     OR user_id = 950961012) AND \"microposts\".\"id\" = ? LIMIT ?"
+        },
+        {
+          "type": "query",
+          "name": "rollback transaction"
+        }
+      ]
+    }
+  ]
+}

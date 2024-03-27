@@ -1,0 +1,4468 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "event": "call",
+      "thread_id": 24000,
+      "http_server_request": {
+        "request_method": "DELETE",
+        "path_info": "/logout",
+        "normalized_path_info": "/logout",
+        "headers": {
+          "Version": "HTTP/1.1",
+          "Host": "0.0.0.0:3000",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0",
+          "Accept": "text/vnd.turbo-stream.html, text/html, application/xhtml+xml",
+          "Accept-Language": "en-US,en;q=0.5",
+          "Accept-Encoding": "gzip, deflate",
+          "Referer": "http://0.0.0.0:3000/users/1",
+          "X-Csrf-Token": "zrYVVBj0pS6Jyg2EbA8U2n0tnJlSvTJCvyDbT-1gtVad570V8fo4HUMh5j_Hrm4mIPgNbEDXV_OqbL_NHSwrng",
+          "Origin": "http://0.0.0.0:3000",
+          "Dnt": "1",
+          "Sec-Gpc": "1",
+          "Connection": "keep-alive",
+          "Cookie": "_sample_app_session=1gkh%2Fyj8%2FhMrdUxjskEMXtIBtfAru575kQcwSiSD4kkDoX6vschsVP%2FJjodKeLk36gDkXL%2BSOvVZlIC4dQdsgfdXWqsea3QYv7k1pIEXiqRjSPFLFfU7Y%2FlSQPQ9fFo%2BCUva4VirbqXnEIKOQCxK9ILARlcQAWxL0gLup0XeS2dgQD3gSy6eg1UaD8epQxkxYSfcxLnkU%2BcE00ted2XzM27SeLytf%2BqlysqCht%2FNEmbM6t3O87OE%2FG%2FTD6x6d9Ox1Hd%2BgD7%2B82biLJxrF3sc48R2eiIJHIzZAi8ccljjTrzq15p7OA24xgnlUkoO6wOtsuSYzqf46pEvva5zX7bbFScMWMMl1VIBlmLM5l2%2FDpjrTkXScovsaRZRWubCRbYNTZ%2ByOBu8qTLP4ChAMNowcW8pEELd9xIpM%2BJJWR5o%2FATLXG7yurgezxLKAi%2BE9AfSp3%2Fk--586%2BRGJxAwVYxVhJ--XpbeVatYYH0fYV4lJtA35w%3D%3D",
+          "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+          "Content-Length": "0"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 97040,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 35620,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffb1653a40>"
+      }
+    },
+    {
+      "id": 3,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 2,
+      "elapsed": 0.011599500000102125,
+      "elapsed_instrumentation": 0.0006218749999788997,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000ffffb1650318 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffffb1650980 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffffb16511a0 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffffb1651808 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffffb1652398 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffffb16525f0 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb]",
+        "object_id": 36800,
+        "size": 6
+      }
+    },
+    {
+      "id": 4,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 97040,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 35620,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffb1653a40>"
+      }
+    },
+    {
+      "id": 5,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 4,
+      "elapsed": 0.00000425000007453491,
+      "elapsed_instrumentation": 0.00017245799995180278,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 36820,
+        "size": 0
+      }
+    },
+    {
+      "id": 6,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "String",
+      "method_id": "unpack",
+      "path": "<internal:pack>",
+      "lineno": 275,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 36840,
+          "value": "NnnnnN",
+          "kind": "req"
+        },
+        {
+          "name": "offset",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "String",
+        "object_id": 97080,
+        "value": "_=#\u0004\"___\u000bY__\\_\u001e\u0004"
+      }
+    },
+    {
+      "id": 7,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 6,
+      "elapsed": 0.000007666999863431556,
+      "elapsed_instrumentation": 0.00017191699998875265,
+      "return_value": {
+        "class": "Array",
+        "value": "[3091014404, 8852, 63637, 2905, 41907, 1552424452]",
+        "object_id": 97100,
+        "size": 6
+      }
+    },
+    {
+      "id": 8,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "String",
+      "method_id": "unpack1",
+      "path": "<internal:pack>",
+      "lineno": 308,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 35920,
+          "value": "H*",
+          "kind": "req"
+        },
+        {
+          "name": "offset",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "String",
+        "object_id": 97120,
+        "value": "_____\u001f__\u0011_"
+      }
+    },
+    {
+      "id": 9,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 8,
+      "elapsed": 0.000005165999937162269,
+      "elapsed_instrumentation": 0.00007062500003485184,
+      "return_value": {
+        "class": "String",
+        "value": "f2e6caaf8b1fd2fc119a",
+        "object_id": 97140
+      }
+    },
+    {
+      "id": 10,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 97160,
+          "value": "Started DELETE \"/logout\" for 192.168.65.1 at 2024-03-27 18:34:58 +0000\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 23800,
+        "value": "#<Logger::LogDevice:0x0000ffffb1c66cc0>"
+      }
+    },
+    {
+      "id": 11,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 10,
+      "elapsed": 0.000066333999939161,
+      "elapsed_instrumentation": 0.00008629200010545901,
+      "return_value": {
+        "class": "Integer",
+        "value": "71",
+        "object_id": 143
+      }
+    },
+    {
+      "id": 12,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 97180,
+          "value": "Started DELETE \"/logout\" for 192.168.65.1 at 2024-03-27 18:34:58 +0000\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9080,
+        "value": "#<Logger::LogDevice:0x0000ffffb0b2a448>"
+      }
+    },
+    {
+      "id": 13,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 12,
+      "elapsed": 0.0017832920000273589,
+      "elapsed_instrumentation": 0.00016849999997248233,
+      "return_value": {
+        "class": "Integer",
+        "value": "71",
+        "object_id": 143
+      }
+    },
+    {
+      "id": 14,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 97200,
+          "value": "Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 23800,
+        "value": "#<Logger::LogDevice:0x0000ffffb1c66cc0>"
+      }
+    },
+    {
+      "id": 15,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 14,
+      "elapsed": 0.000039374999914798536,
+      "elapsed_instrumentation": 0.0002489999999397696,
+      "return_value": {
+        "class": "Integer",
+        "value": "90",
+        "object_id": 181
+      }
+    },
+    {
+      "id": 16,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 97220,
+          "value": "Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9080,
+        "value": "#<Logger::LogDevice:0x0000ffffb0b2a448>"
+      }
+    },
+    {
+      "id": 17,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 16,
+      "elapsed": 0.001169207999964783,
+      "elapsed_instrumentation": 0.00020283300000301097,
+      "return_value": {
+        "class": "Integer",
+        "value": "90",
+        "object_id": 181
+      }
+    },
+    {
+      "id": 18,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 97260,
+          "value": "Processing by SessionsController#destroy as TURBO_STREAM\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 23800,
+        "value": "#<Logger::LogDevice:0x0000ffffb1c66cc0>"
+      }
+    },
+    {
+      "id": 19,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 18,
+      "elapsed": 0.00003450000008342613,
+      "elapsed_instrumentation": 0.00013258400008453464,
+      "return_value": {
+        "class": "Integer",
+        "value": "57",
+        "object_id": 115
+      }
+    },
+    {
+      "id": 20,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 97280,
+          "value": "Processing by SessionsController#destroy as TURBO_STREAM\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9080,
+        "value": "#<Logger::LogDevice:0x0000ffffb0b2a448>"
+      }
+    },
+    {
+      "id": 21,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 20,
+      "elapsed": 0.0003250839999964228,
+      "elapsed_instrumentation": 0.00008516599996255536,
+      "return_value": {
+        "class": "Integer",
+        "value": "57",
+        "object_id": 115
+      }
+    },
+    {
+      "id": 22,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 97300,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 37820,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffaa9d8b90>"
+      }
+    },
+    {
+      "id": 23,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "String",
+      "method_id": "unpack1",
+      "path": "<internal:pack>",
+      "lineno": 308,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38360,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "offset",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "String",
+        "object_id": 97320,
+        "value": "zrYVVBj0pS6Jyg2EbA8U2n0tnJlSvTJCvyDbT+1gtVad570V8fo4HUMh5j/Hrm4mIPgNbEDXV/OqbL/NHSwrng=="
+      }
+    },
+    {
+      "id": 24,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 23,
+      "elapsed": 0.000005000000101063051,
+      "elapsed_instrumentation": 0.00011558300002434407,
+      "return_value": {
+        "class": "String",
+        "value": "__\u0015T\u0018__.__\r_l\u000f\u0014_}-__R_2B_ _O_`_V___\u0015__8\u001dC!_?__n& _\rl@_W__l__\u001d,+_",
+        "object_id": 97340
+      }
+    },
+    {
+      "id": 25,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActionDispatch::Request::Session",
+      "method_id": "[]",
+      "path": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/request/session.rb",
+      "lineno": 110,
+      "static": false,
+      "parameters": [
+        {
+          "name": "key",
+          "class": "Symbol",
+          "object_id": 9715548,
+          "value": ":_csrf_token",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActionDispatch::Request::Session",
+        "object_id": 97360,
+        "value": "#<ActionDispatch::Request::Session:0x0000ffffa80553e0>"
+      }
+    },
+    {
+      "id": 26,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActionDispatch::Cookies::CookieJar",
+      "method_id": "update",
+      "path": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/middleware/cookies.rb",
+      "lineno": 352,
+      "static": false,
+      "parameters": [
+        {
+          "name": "other_hash",
+          "class": "Hash",
+          "object_id": 97380,
+          "value": "{_sample_app_session=>1gkh/yj8/hMrdUxjskEMXtIBtfAru575kQcwSiSD4kkDoX6vschsVP/JjodKeLk36gDkXL+SOvVZlIC4dQdsgfdXWqsea3QYv7k1 (...396 more characters)}",
+          "kind": "req",
+          "size": 1
+        }
+      ],
+      "receiver": {
+        "class": "ActionDispatch::Cookies::CookieJar",
+        "object_id": 97400,
+        "value": "#<ActionDispatch::Cookies::CookieJar:0x0000ffffa805d220>"
+      }
+    },
+    {
+      "id": 27,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 26,
+      "elapsed": 0.000005874999942534487,
+      "elapsed_instrumentation": 0.00011674999996102997,
+      "return_value": {
+        "class": "ActionDispatch::Cookies::CookieJar",
+        "value": "#<ActionDispatch::Cookies::CookieJar:0x0000ffffa805d220>",
+        "object_id": 97400
+      }
+    },
+    {
+      "id": 28,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActionDispatch::Cookies::CookieJar",
+      "method_id": "[]",
+      "path": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/middleware/cookies.rb",
+      "lineno": 336,
+      "static": false,
+      "parameters": [
+        {
+          "name": "name",
+          "class": "String",
+          "object_id": 38240,
+          "value": "_sample_app_session",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActionDispatch::Cookies::CookieJar",
+        "object_id": 97400,
+        "value": "#<ActionDispatch::Cookies::CookieJar:0x0000ffffa805d220>"
+      }
+    },
+    {
+      "id": 29,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 28,
+      "elapsed": 0.0000025839999580057338,
+      "elapsed_instrumentation": 0.00005333399985829601,
+      "return_value": {
+        "class": "String",
+        "value": "1gkh/yj8/hMrdUxjskEMXtIBtfAru575kQcwSiSD4kkDoX6vschsVP/JjodKeLk36gDkXL+SOvVZlIC4dQdsgfdXWqsea3QYv7k1 (...396 more characters)",
+        "object_id": 97420
+      }
+    },
+    {
+      "id": 30,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActiveSupport::Messages::Rotator::Encryptor",
+      "method_id": "decrypt_and_verify",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/messages/rotator.rb",
+      "lineno": 21,
+      "static": false,
+      "parameters": [
+        {
+          "name": "args",
+          "class": "Array",
+          "object_id": 97440,
+          "value": "[1gkh/yj8/hMrdUxjskEMXtIBtfAru575kQcwSiSD4kkDoX6vschsVP/JjodKeLk36gDkXL+SOvVZlIC4dQdsgfdXWqsea3QYv7k1 (...396 more characters)]",
+          "kind": "rest",
+          "size": 1
+        },
+        {
+          "name": "on_rotation",
+          "class": "Proc",
+          "object_id": 97460,
+          "value": "#<Proc:0x0000ffffa80624c8 /usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/middleware/coo",
+          "kind": "key"
+        },
+        {
+          "name": "options",
+          "class": "Hash",
+          "object_id": 97480,
+          "value": "{:purpose=>cookie._sample_app_session}",
+          "kind": "keyrest",
+          "size": 1
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::MessageEncryptor",
+        "object_id": 97500,
+        "value": "#<ActiveSupport::MessageEncryptor:0x0000ffffa8063c88>"
+      }
+    },
+    {
+      "id": 31,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "String",
+      "method_id": "unpack1",
+      "path": "<internal:pack>",
+      "lineno": 308,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38360,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "offset",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "String",
+        "object_id": 97520,
+        "value": "1gkh/yj8/hMrdUxjskEMXtIBtfAru575kQcwSiSD4kkDoX6vschsVP/JjodKeLk36gDkXL+SOvVZlIC4dQdsgfdXWqsea3QYv7k1 (...352 more characters)"
+      }
+    },
+    {
+      "id": 32,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 31,
+      "elapsed": 0.0000026669999897421803,
+      "elapsed_instrumentation": 0.00006945800009816594,
+      "return_value": {
+        "class": "String",
+        "value": "_\t!_(__\u0013+uLc_A\f^_\u0001__+____\u00070J$__I\u0003_~___lT____Jx_7_\u0000_\\__:_Y___u\u0007l__WZ_\u001ekt\u0018__5__\u0017__cH_K\u0015_;c_R@_=|Z>\tK__ (...239 more characters)",
+        "object_id": 97540
+      }
+    },
+    {
+      "id": 33,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "String",
+      "method_id": "unpack1",
+      "path": "<internal:pack>",
+      "lineno": 308,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38360,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "offset",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "String",
+        "object_id": 97560,
+        "value": "586+RGJxAwVYxVhJ"
+      }
+    },
+    {
+      "id": 34,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 33,
+      "elapsed": 0.0000019159999737894395,
+      "elapsed_instrumentation": 0.00004504199978327961,
+      "return_value": {
+        "class": "String",
+        "value": "___Dbq\u0003\u0005X_XI",
+        "object_id": 97580
+      }
+    },
+    {
+      "id": 35,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "String",
+      "method_id": "unpack1",
+      "path": "<internal:pack>",
+      "lineno": 308,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38360,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "offset",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "String",
+        "object_id": 97600,
+        "value": "XpbeVatYYH0fYV4lJtA35w=="
+      }
+    },
+    {
+      "id": 36,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 35,
+      "elapsed": 0.0000014170000213198364,
+      "elapsed_instrumentation": 0.000035625000009531504,
+      "return_value": {
+        "class": "String",
+        "value": "^__U_X`}\u001fa^%&_7_",
+        "object_id": 97620
+      }
+    },
+    {
+      "id": 37,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "decrypt",
+      "path": "OpenSSL::Cipher#decrypt",
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "Array",
+          "object_id": 97640,
+          "value": "[]",
+          "kind": "rest",
+          "size": 0
+        }
+      ],
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 97660,
+        "value": "#<OpenSSL::Cipher:0x0000ffffa80609c0>",
+        "labels": [
+          "crypto.algorithm.id-aes256-GCM"
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 37,
+      "elapsed": 0.0000028340000426396728,
+      "elapsed_instrumentation": 0.00005820799992761749,
+      "return_value": {
+        "class": "OpenSSL::Cipher",
+        "value": "#<OpenSSL::Cipher:0x0000ffffa80609c0>",
+        "object_id": 97660
+      }
+    },
+    {
+      "id": 39,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "key=",
+      "path": "OpenSSL::Cipher#key=",
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "String",
+          "object_id": 38100,
+          "value": "\u0010n_v]\u001df_G____;_h_<______m_\u0013_3a_\u000b",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 97660,
+        "value": "#<OpenSSL::Cipher:0x0000ffffa80609c0>"
+      }
+    },
+    {
+      "id": 40,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 39,
+      "elapsed": 0.00000570800011701067,
+      "elapsed_instrumentation": 0.00004329199987296306,
+      "return_value": {
+        "class": "String",
+        "value": "\u0010n_v]\u001df_G____;_h_<______m_\u0013_3a_\u000b",
+        "object_id": 38100
+      }
+    },
+    {
+      "id": 41,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "iv=",
+      "path": "OpenSSL::Cipher#iv=",
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "String",
+          "object_id": 97580,
+          "value": "___Dbq\u0003\u0005X_XI",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 97660,
+        "value": "#<OpenSSL::Cipher:0x0000ffffa80609c0>"
+      }
+    },
+    {
+      "id": 42,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 41,
+      "elapsed": 0.000003250000190746505,
+      "elapsed_instrumentation": 0.00003987499985669274,
+      "return_value": {
+        "class": "String",
+        "value": "___Dbq\u0003\u0005X_XI",
+        "object_id": 97580
+      }
+    },
+    {
+      "id": 43,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "auth_tag=",
+      "path": "OpenSSL::Cipher#auth_tag=",
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "String",
+          "object_id": 97620,
+          "value": "^__U_X`}\u001fa^%&_7_",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 97660,
+        "value": "#<OpenSSL::Cipher:0x0000ffffa80609c0>"
+      }
+    },
+    {
+      "id": 44,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 43,
+      "elapsed": 0.000002708000010898104,
+      "elapsed_instrumentation": 0.00003483399996184744,
+      "return_value": {
+        "class": "String",
+        "value": "^__U_X`}\u001fa^%&_7_",
+        "object_id": 97620
+      }
+    },
+    {
+      "id": 45,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "auth_data=",
+      "path": "OpenSSL::Cipher#auth_data=",
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "String",
+          "object_id": 38540,
+          "value": "",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 97660,
+        "value": "#<OpenSSL::Cipher:0x0000ffffa80609c0>"
+      }
+    },
+    {
+      "id": 46,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 45,
+      "elapsed": 0.000004500000159168849,
+      "elapsed_instrumentation": 0.000029207999887148617,
+      "return_value": {
+        "class": "String",
+        "value": "",
+        "object_id": 38540
+      }
+    },
+    {
+      "id": 47,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "update",
+      "path": "OpenSSL::Cipher#update",
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "Array",
+          "object_id": 97680,
+          "value": "[_\t!_(__\u0013+uLc_A\f^_\u0001__+____\u00070J$__I\u0003_~___lT____Jx_7_\u0000_\\__:_Y___u\u0007l__WZ_\u001ekt\u0018__5__\u0017__cH_K\u0015_;c_R@_=|Z>\tK__ (...239 more characters)]",
+          "kind": "rest",
+          "size": 1
+        }
+      ],
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 97660,
+        "value": "#<OpenSSL::Cipher:0x0000ffffa80609c0>"
+      }
+    },
+    {
+      "id": 48,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 47,
+      "elapsed": 0.000006084000006012502,
+      "elapsed_instrumentation": 0.0002982079997764231,
+      "return_value": {
+        "class": "String",
+        "value": "{\"_rails\":{\"message\":\"eyJzZXNzaW9uX2lkIjoiZDg4MDExNzAyZThjNzM1YTViMjQ1M2ExNTk3OGZlMDQiLCJ1c2VyX2lkIj (...239 more characters)",
+        "object_id": 97700
+      }
+    },
+    {
+      "id": 49,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "final",
+      "path": "OpenSSL::Cipher#final",
+      "static": false,
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 97660,
+        "value": "#<OpenSSL::Cipher:0x0000ffffa80609c0>"
+      }
+    },
+    {
+      "id": 50,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 49,
+      "elapsed": 0.0000037909999264229555,
+      "elapsed_instrumentation": 0.00003162600000905513,
+      "return_value": {
+        "class": "String",
+        "value": "",
+        "object_id": 97720
+      }
+    },
+    {
+      "id": 51,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "JSON::Ext::Parser",
+      "method_id": "parse",
+      "path": "JSON::Ext::Parser#parse",
+      "static": false,
+      "receiver": {
+        "class": "JSON::Ext::Parser",
+        "object_id": 97740,
+        "value": "#<JSON::Ext::Parser:0x0000ffffa803b0f8>"
+      }
+    },
+    {
+      "id": 52,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 51,
+      "elapsed": 0.00001695900004961004,
+      "elapsed_instrumentation": 0.00007387499977085099,
+      "return_value": {
+        "class": "Hash",
+        "value": "{_rails=>{message=>eyJzZXNzaW9uX2lkIjoiZDg4MDExNzAyZThjNzM1YTViMjQ1M2ExNTk3OGZlMDQiLCJ1c2VyX2lkIjoxLCJzZXNzaW9uX3Rva2Vu (...168 more characters), exp=>, pur=>cookie._sample_app_session}}",
+        "object_id": 97760,
+        "size": 1
+      }
+    },
+    {
+      "id": 53,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "String",
+      "method_id": "unpack1",
+      "path": "<internal:pack>",
+      "lineno": 308,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38360,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "offset",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "String",
+        "object_id": 97780,
+        "value": "eyJzZXNzaW9uX2lkIjoiZDg4MDExNzAyZThjNzM1YTViMjQ1M2ExNTk3OGZlMDQiLCJ1c2VyX2lkIjoxLCJzZXNzaW9uX3Rva2Vu (...168 more characters)"
+      }
+    },
+    {
+      "id": 54,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 53,
+      "elapsed": 0.000001874999952633516,
+      "elapsed_instrumentation": 0.00003866599990942632,
+      "return_value": {
+        "class": "String",
+        "value": "{\"session_id\":\"d88011702e8c735a5b2453a15978fe04\",\"user_id\":1,\"session_token\":\"$2a$12$nME5uebyOU2n1yu (...100 more characters)",
+        "object_id": 97800
+      }
+    },
+    {
+      "id": 55,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 30,
+      "elapsed": 0.0010237919998417055,
+      "elapsed_instrumentation": 0.00016100000016194826,
+      "return_value": {
+        "class": "String",
+        "value": "{\"session_id\":\"d88011702e8c735a5b2453a15978fe04\",\"user_id\":1,\"session_token\":\"$2a$12$nME5uebyOU2n1yu (...100 more characters)",
+        "object_id": 97800
+      }
+    },
+    {
+      "id": 56,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "JSON::Ext::Parser",
+      "method_id": "parse",
+      "path": "JSON::Ext::Parser#parse",
+      "static": false,
+      "receiver": {
+        "class": "JSON::Ext::Parser",
+        "object_id": 97820,
+        "value": "#<JSON::Ext::Parser:0x0000ffffa803fce8>"
+      }
+    },
+    {
+      "id": 57,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 56,
+      "elapsed": 0.000013541000043915119,
+      "elapsed_instrumentation": 0.000059251000038784696,
+      "return_value": {
+        "class": "Hash",
+        "value": "{session_id=>d88011702e8c735a5b2453a15978fe04, user_id=>1, session_token=>$2a$12$nME5uebyOU2n1yuo5FsEJOtUwmTQHOIF8SbnrkV0TD9fp6GIDKjkK, _csrf_token=>ZnIKFqPb5A5mMWTsM2tqLomdKaZh2jBNpkWzZTfztLk}",
+        "object_id": 97840,
+        "size": 4
+      }
+    },
+    {
+      "id": 58,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 25,
+      "elapsed": 0.0018463750000137225,
+      "elapsed_instrumentation": 0.000058957999954145635,
+      "return_value": {
+        "class": "String",
+        "value": "ZnIKFqPb5A5mMWTsM2tqLomdKaZh2jBNpkWzZTfztLk",
+        "object_id": 97860
+      }
+    },
+    {
+      "id": 59,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActionDispatch::Request::Session",
+      "method_id": "[]",
+      "path": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/request/session.rb",
+      "lineno": 110,
+      "static": false,
+      "parameters": [
+        {
+          "name": "key",
+          "class": "Symbol",
+          "object_id": 9715548,
+          "value": ":_csrf_token",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActionDispatch::Request::Session",
+        "object_id": 97360,
+        "value": "#<ActionDispatch::Request::Session:0x0000ffffa80553e0>"
+      }
+    },
+    {
+      "id": 60,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 59,
+      "elapsed": 0.000001916999963214039,
+      "elapsed_instrumentation": 0.00003266700014137314,
+      "return_value": {
+        "class": "String",
+        "value": "ZnIKFqPb5A5mMWTsM2tqLomdKaZh2jBNpkWzZTfztLk",
+        "object_id": 97860
+      }
+    },
+    {
+      "id": 61,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "String",
+      "method_id": "unpack1",
+      "path": "<internal:pack>",
+      "lineno": 308,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38360,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "offset",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "String",
+        "object_id": 97880,
+        "value": "ZnIKFqPb5A5mMWTsM2tqLomdKaZh2jBNpkWzZTfztLk="
+      }
+    },
+    {
+      "id": 62,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 61,
+      "elapsed": 0.0000016250000953732524,
+      "elapsed_instrumentation": 0.0000401669999519072,
+      "return_value": {
+        "class": "String",
+        "value": "fr\n\u0016___\u000ef1d_3kj.__)_a_0M_E_e7___",
+        "object_id": 97900
+      }
+    },
+    {
+      "id": 63,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 22,
+      "elapsed": 0.00251750000006723,
+      "elapsed_instrumentation": 0.00009508400012236962,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000ffffaa9d8820 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb]",
+        "object_id": 37840,
+        "size": 1
+      }
+    },
+    {
+      "id": 64,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 97300,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 37900,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffaa9d9090>"
+      }
+    },
+    {
+      "id": 65,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 64,
+      "elapsed": 0.0021059590001186734,
+      "elapsed_instrumentation": 0.00009599899999557238,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000ffffaa9d8d48 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb]",
+        "object_id": 37920,
+        "size": 1
+      }
+    },
+    {
+      "id": 66,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "SessionsController",
+      "method_id": "destroy",
+      "path": "app/controllers/sessions_controller.rb",
+      "lineno": 27,
+      "static": false,
+      "receiver": {
+        "class": "SessionsController",
+        "object_id": 97920,
+        "value": "#<SessionsController:0x0000ffffa80545a8>"
+      }
+    },
+    {
+      "id": 67,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "SessionsHelper",
+      "method_id": "logged_in?",
+      "path": "app/helpers/sessions_helper.rb",
+      "lineno": 40,
+      "static": false,
+      "receiver": {
+        "class": "SessionsController",
+        "object_id": 97920,
+        "value": "#<SessionsController:0x0000ffffa80545a8>"
+      }
+    },
+    {
+      "id": 68,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "SessionsHelper",
+      "method_id": "current_user",
+      "path": "app/helpers/sessions_helper.rb",
+      "lineno": 19,
+      "static": false,
+      "receiver": {
+        "class": "SessionsController",
+        "object_id": 97920,
+        "value": "#<SessionsController:0x0000ffffa80545a8>"
+      }
+    },
+    {
+      "id": 69,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActionDispatch::Request::Session",
+      "method_id": "[]",
+      "path": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/request/session.rb",
+      "lineno": 110,
+      "static": false,
+      "parameters": [
+        {
+          "name": "key",
+          "class": "Symbol",
+          "object_id": 6533148,
+          "value": ":user_id",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActionDispatch::Request::Session",
+        "object_id": 97360,
+        "value": "#<ActionDispatch::Request::Session:0x0000ffffa80553e0>"
+      }
+    },
+    {
+      "id": 70,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 69,
+      "elapsed": 0.000002417000132481917,
+      "elapsed_instrumentation": 0.00004283299995222478,
+      "return_value": {
+        "class": "Integer",
+        "value": "1",
+        "object_id": 3
+      }
+    },
+    {
+      "id": 71,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 97940,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 37040,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffb00c48f0>"
+      }
+    },
+    {
+      "id": 72,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 71,
+      "elapsed": 0.000001249999968422344,
+      "elapsed_instrumentation": 0.000041083000041908235,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 37060,
+        "size": 0
+      }
+    },
+    {
+      "id": 73,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 97940,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 37040,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffb00c48f0>"
+      }
+    },
+    {
+      "id": 74,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 73,
+      "elapsed": 0.000009999999974752427,
+      "elapsed_instrumentation": 0.00004054200007885811,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000ffffb00c4440 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb]",
+        "object_id": 37080,
+        "size": 1
+      }
+    },
+    {
+      "id": 75,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 97960,
+          "value": "  \u001b[1m\u001b[36mUser Load (0.5ms)\u001b[0m  \u001b[1m\u001b[34mSELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMI (...35 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 23800,
+        "value": "#<Logger::LogDevice:0x0000ffffb1c66cc0>"
+      }
+    },
+    {
+      "id": 76,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 75,
+      "elapsed": 0.00001950000000761065,
+      "elapsed_instrumentation": 0.00006466600029852998,
+      "return_value": {
+        "class": "Integer",
+        "value": "135",
+        "object_id": 271
+      }
+    },
+    {
+      "id": 77,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 97980,
+          "value": "  \u001b[1m\u001b[36mUser Load (0.5ms)\u001b[0m  \u001b[1m\u001b[34mSELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMI (...35 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9080,
+        "value": "#<Logger::LogDevice:0x0000ffffb0b2a448>"
+      }
+    },
+    {
+      "id": 78,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 77,
+      "elapsed": 0.0002551250001943117,
+      "elapsed_instrumentation": 0.00005262499962555012,
+      "return_value": {
+        "class": "Integer",
+        "value": "135",
+        "object_id": 271
+      }
+    },
+    {
+      "id": 79,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98000,
+          "value": "  ↳ app/helpers/sessions_helper.rb:21:in `current_user'\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 23800,
+        "value": "#<Logger::LogDevice:0x0000ffffb1c66cc0>"
+      }
+    },
+    {
+      "id": 80,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 79,
+      "elapsed": 0.0000206250001610897,
+      "elapsed_instrumentation": 0.00005016699969928595,
+      "return_value": {
+        "class": "Integer",
+        "value": "58",
+        "object_id": 117
+      }
+    },
+    {
+      "id": 81,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98020,
+          "value": "  ↳ app/helpers/sessions_helper.rb:21:in `current_user'\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9080,
+        "value": "#<Logger::LogDevice:0x0000ffffb0b2a448>"
+      }
+    },
+    {
+      "id": 82,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 81,
+      "elapsed": 0.0002945420001196908,
+      "elapsed_instrumentation": 0.000053167000032772194,
+      "return_value": {
+        "class": "Integer",
+        "value": "58",
+        "object_id": 117
+      }
+    },
+    {
+      "id": 83,
+      "event": "call",
+      "thread_id": 24000,
+      "sql_query": {
+        "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 84,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 83,
+      "elapsed": 0.001949542,
+      "elapsed_instrumentation": 0.00008962500010056829
+    },
+    {
+      "id": 85,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActionDispatch::Request::Session",
+      "method_id": "[]",
+      "path": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/request/session.rb",
+      "lineno": 110,
+      "static": false,
+      "parameters": [
+        {
+          "name": "key",
+          "class": "Symbol",
+          "object_id": 10679068,
+          "value": ":session_token",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActionDispatch::Request::Session",
+        "object_id": 97360,
+        "value": "#<ActionDispatch::Request::Session:0x0000ffffa80553e0>"
+      }
+    },
+    {
+      "id": 86,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 85,
+      "elapsed": 0.0000028750000637955964,
+      "elapsed_instrumentation": 0.00046358399981727416,
+      "return_value": {
+        "class": "String",
+        "value": "$2a$12$nME5uebyOU2n1yuo5FsEJOtUwmTQHOIF8SbnrkV0TD9fp6GIDKjkK",
+        "object_id": 98040
+      }
+    },
+    {
+      "id": 87,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "User",
+      "method_id": "session_token",
+      "path": "app/models/user.rb",
+      "lineno": 43,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 98060,
+        "value": "#<User:0x0000ffffa804c470>"
+      }
+    },
+    {
+      "id": 88,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 87,
+      "elapsed": 0.000022458000103142695,
+      "elapsed_instrumentation": 0.000051876000043193926,
+      "return_value": {
+        "class": "String",
+        "value": "$2a$12$nME5uebyOU2n1yuo5FsEJOtUwmTQHOIF8SbnrkV0TD9fp6GIDKjkK",
+        "object_id": 98080
+      }
+    },
+    {
+      "id": 89,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 68,
+      "elapsed": 0.0034009999999398133,
+      "elapsed_instrumentation": 0.000037165999856370036,
+      "return_value": {
+        "class": "User",
+        "value": "#<User:0x0000ffffa804c470>",
+        "object_id": 98060
+      }
+    },
+    {
+      "id": 90,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 67,
+      "elapsed": 0.0034490410000671545,
+      "elapsed_instrumentation": 0.00003995900010522746,
+      "return_value": {
+        "class": "TrueClass",
+        "value": "true",
+        "object_id": 20
+      }
+    },
+    {
+      "id": 91,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "SessionsHelper",
+      "method_id": "log_out",
+      "path": "app/helpers/sessions_helper.rb",
+      "lineno": 52,
+      "static": false,
+      "receiver": {
+        "class": "SessionsController",
+        "object_id": 97920,
+        "value": "#<SessionsController:0x0000ffffa80545a8>"
+      }
+    },
+    {
+      "id": 92,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "SessionsHelper",
+      "method_id": "current_user",
+      "path": "app/helpers/sessions_helper.rb",
+      "lineno": 19,
+      "static": false,
+      "receiver": {
+        "class": "SessionsController",
+        "object_id": 97920,
+        "value": "#<SessionsController:0x0000ffffa80545a8>"
+      }
+    },
+    {
+      "id": 93,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActionDispatch::Request::Session",
+      "method_id": "[]",
+      "path": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/request/session.rb",
+      "lineno": 110,
+      "static": false,
+      "parameters": [
+        {
+          "name": "key",
+          "class": "Symbol",
+          "object_id": 6533148,
+          "value": ":user_id",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActionDispatch::Request::Session",
+        "object_id": 97360,
+        "value": "#<ActionDispatch::Request::Session:0x0000ffffa80553e0>"
+      }
+    },
+    {
+      "id": 94,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 93,
+      "elapsed": 0.000001958999973794562,
+      "elapsed_instrumentation": 0.0000341250001838489,
+      "return_value": {
+        "class": "Integer",
+        "value": "1",
+        "object_id": 3
+      }
+    },
+    {
+      "id": 95,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98100,
+          "value": "  \u001b[1m\u001b[36mCACHE User Load (0.0ms)\u001b[0m  \u001b[1m\u001b[34mSELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" =  (...41 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 23800,
+        "value": "#<Logger::LogDevice:0x0000ffffb1c66cc0>"
+      }
+    },
+    {
+      "id": 96,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 95,
+      "elapsed": 0.000018833000012818957,
+      "elapsed_instrumentation": 0.00007537500005128095,
+      "return_value": {
+        "class": "Integer",
+        "value": "141",
+        "object_id": 283
+      }
+    },
+    {
+      "id": 97,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98120,
+          "value": "  \u001b[1m\u001b[36mCACHE User Load (0.0ms)\u001b[0m  \u001b[1m\u001b[34mSELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" =  (...41 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9080,
+        "value": "#<Logger::LogDevice:0x0000ffffb0b2a448>"
+      }
+    },
+    {
+      "id": 98,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 97,
+      "elapsed": 0.0003203750000011496,
+      "elapsed_instrumentation": 0.0001272499998776766,
+      "return_value": {
+        "class": "Integer",
+        "value": "141",
+        "object_id": 283
+      }
+    },
+    {
+      "id": 99,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98140,
+          "value": "  ↳ app/helpers/sessions_helper.rb:21:in `current_user'\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 23800,
+        "value": "#<Logger::LogDevice:0x0000ffffb1c66cc0>"
+      }
+    },
+    {
+      "id": 100,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 99,
+      "elapsed": 0.00003749999996216502,
+      "elapsed_instrumentation": 0.00011558400001376867,
+      "return_value": {
+        "class": "Integer",
+        "value": "58",
+        "object_id": 117
+      }
+    },
+    {
+      "id": 101,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98160,
+          "value": "  ↳ app/helpers/sessions_helper.rb:21:in `current_user'\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9080,
+        "value": "#<Logger::LogDevice:0x0000ffffb0b2a448>"
+      }
+    },
+    {
+      "id": 102,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 101,
+      "elapsed": 0.0002606670000204758,
+      "elapsed_instrumentation": 0.00005220900015956431,
+      "return_value": {
+        "class": "Integer",
+        "value": "58",
+        "object_id": 117
+      }
+    },
+    {
+      "id": 103,
+      "event": "call",
+      "thread_id": 24000,
+      "sql_query": {
+        "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 104,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 103,
+      "elapsed": 0.001657833,
+      "elapsed_instrumentation": 0.00003674999993563688
+    },
+    {
+      "id": 105,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActionDispatch::Request::Session",
+      "method_id": "[]",
+      "path": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/request/session.rb",
+      "lineno": 110,
+      "static": false,
+      "parameters": [
+        {
+          "name": "key",
+          "class": "Symbol",
+          "object_id": 10679068,
+          "value": ":session_token",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActionDispatch::Request::Session",
+        "object_id": 97360,
+        "value": "#<ActionDispatch::Request::Session:0x0000ffffa80553e0>"
+      }
+    },
+    {
+      "id": 106,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 105,
+      "elapsed": 0.000002375000121901394,
+      "elapsed_instrumentation": 0.00005441700000119454,
+      "return_value": {
+        "class": "String",
+        "value": "$2a$12$nME5uebyOU2n1yuo5FsEJOtUwmTQHOIF8SbnrkV0TD9fp6GIDKjkK",
+        "object_id": 98040
+      }
+    },
+    {
+      "id": 107,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "User",
+      "method_id": "session_token",
+      "path": "app/models/user.rb",
+      "lineno": 43,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 98180,
+        "value": "#<User:0x0000ffffa8024498>"
+      }
+    },
+    {
+      "id": 108,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 107,
+      "elapsed": 0.000005749999900217517,
+      "elapsed_instrumentation": 0.00004937500011692464,
+      "return_value": {
+        "class": "String",
+        "value": "$2a$12$nME5uebyOU2n1yuo5FsEJOtUwmTQHOIF8SbnrkV0TD9fp6GIDKjkK",
+        "object_id": 98200
+      }
+    },
+    {
+      "id": 109,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 92,
+      "elapsed": 0.0020436249999420397,
+      "elapsed_instrumentation": 0.000036832999967373325,
+      "return_value": {
+        "class": "User",
+        "value": "#<User:0x0000ffffa8024498>",
+        "object_id": 98180
+      }
+    },
+    {
+      "id": 110,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "SessionsHelper",
+      "method_id": "forget",
+      "path": "app/helpers/sessions_helper.rb",
+      "lineno": 45,
+      "static": false,
+      "parameters": [
+        {
+          "name": "user",
+          "class": "User",
+          "object_id": 98180,
+          "value": "#<User:0x0000ffffa8024498>",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "SessionsController",
+        "object_id": 97920,
+        "value": "#<SessionsController:0x0000ffffa80545a8>"
+      }
+    },
+    {
+      "id": 111,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "User",
+      "method_id": "forget",
+      "path": "app/models/user.rb",
+      "lineno": 55,
+      "static": false,
+      "receiver": {
+        "class": "User",
+        "object_id": 98180,
+        "value": "#<User:0x0000ffffa8024498>"
+      }
+    },
+    {
+      "id": 112,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 98220,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 79880,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffff53901c00>"
+      }
+    },
+    {
+      "id": 113,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 112,
+      "elapsed": 0.000001165999947261298,
+      "elapsed_instrumentation": 0.00004041700003654114,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 79900,
+        "size": 0
+      }
+    },
+    {
+      "id": 114,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 98220,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 79920,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffff53901f98>"
+      }
+    },
+    {
+      "id": 115,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 114,
+      "elapsed": 0.00002112499987561023,
+      "elapsed_instrumentation": 0.00004716700004792074,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000ffff53901cf0 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb]",
+        "object_id": 79940,
+        "size": 1
+      }
+    },
+    {
+      "id": 116,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 98240,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 79980,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffff538fede8>"
+      }
+    },
+    {
+      "id": 117,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 116,
+      "elapsed": 0.0000010839999049494509,
+      "elapsed_instrumentation": 0.000030708000167578575,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 80000,
+        "size": 0
+      }
+    },
+    {
+      "id": 118,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98260,
+          "value": "  \u001b[1m\u001b[36mTRANSACTION (0.1ms)\u001b[0m  \u001b[1m\u001b[36mbegin transaction\u001b[0m\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 23800,
+        "value": "#<Logger::LogDevice:0x0000ffffb1c66cc0>"
+      }
+    },
+    {
+      "id": 119,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 118,
+      "elapsed": 0.000018540999917604495,
+      "elapsed_instrumentation": 0.00005070800011708343,
+      "return_value": {
+        "class": "Integer",
+        "value": "67",
+        "object_id": 135
+      }
+    },
+    {
+      "id": 120,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98280,
+          "value": "  \u001b[1m\u001b[36mTRANSACTION (0.1ms)\u001b[0m  \u001b[1m\u001b[36mbegin transaction\u001b[0m\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9080,
+        "value": "#<Logger::LogDevice:0x0000ffffb0b2a448>"
+      }
+    },
+    {
+      "id": 121,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 120,
+      "elapsed": 0.00021225000000413274,
+      "elapsed_instrumentation": 0.00004470800013223197,
+      "return_value": {
+        "class": "Integer",
+        "value": "67",
+        "object_id": 135
+      }
+    },
+    {
+      "id": 122,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98300,
+          "value": "  ↳ app/models/user.rb:56:in `forget'\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 23800,
+        "value": "#<Logger::LogDevice:0x0000ffffb1c66cc0>"
+      }
+    },
+    {
+      "id": 123,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 122,
+      "elapsed": 0.000013749999880019459,
+      "elapsed_instrumentation": 0.00005100000021229789,
+      "return_value": {
+        "class": "Integer",
+        "value": "40",
+        "object_id": 81
+      }
+    },
+    {
+      "id": 124,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98320,
+          "value": "  ↳ app/models/user.rb:56:in `forget'\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9080,
+        "value": "#<Logger::LogDevice:0x0000ffffb0b2a448>"
+      }
+    },
+    {
+      "id": 125,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 124,
+      "elapsed": 0.00020295800004532794,
+      "elapsed_instrumentation": 0.000043209000295973965,
+      "return_value": {
+        "class": "Integer",
+        "value": "40",
+        "object_id": 81
+      }
+    },
+    {
+      "id": 126,
+      "event": "call",
+      "thread_id": 24000,
+      "sql_query": {
+        "sql": "begin transaction",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 127,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 126,
+      "elapsed": 0.001602667,
+      "elapsed_instrumentation": 0.000032625000130792614
+    },
+    {
+      "id": 128,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98340,
+          "value": "  \u001b[1m\u001b[36mUser Update (1.7ms)\u001b[0m  \u001b[1m\u001b[33mUPDATE \"users\" SET \"updated_at\" = ?, \"remember_digest\"  (...116 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 23800,
+        "value": "#<Logger::LogDevice:0x0000ffffb1c66cc0>"
+      }
+    },
+    {
+      "id": 129,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 128,
+      "elapsed": 0.00001595799994902336,
+      "elapsed_instrumentation": 0.00005966699995951785,
+      "return_value": {
+        "class": "Integer",
+        "value": "216",
+        "object_id": 433
+      }
+    },
+    {
+      "id": 130,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98360,
+          "value": "  \u001b[1m\u001b[36mUser Update (1.7ms)\u001b[0m  \u001b[1m\u001b[33mUPDATE \"users\" SET \"updated_at\" = ?, \"remember_digest\"  (...116 more characters)",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9080,
+        "value": "#<Logger::LogDevice:0x0000ffffb0b2a448>"
+      }
+    },
+    {
+      "id": 131,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 130,
+      "elapsed": 0.00017833299989433726,
+      "elapsed_instrumentation": 0.00004758399995807849,
+      "return_value": {
+        "class": "Integer",
+        "value": "216",
+        "object_id": 433
+      }
+    },
+    {
+      "id": 132,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98380,
+          "value": "  ↳ app/models/user.rb:56:in `forget'\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 23800,
+        "value": "#<Logger::LogDevice:0x0000ffffb1c66cc0>"
+      }
+    },
+    {
+      "id": 133,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 132,
+      "elapsed": 0.000020166000012977747,
+      "elapsed_instrumentation": 0.00005041700001129357,
+      "return_value": {
+        "class": "Integer",
+        "value": "40",
+        "object_id": 81
+      }
+    },
+    {
+      "id": 134,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98400,
+          "value": "  ↳ app/models/user.rb:56:in `forget'\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9080,
+        "value": "#<Logger::LogDevice:0x0000ffffb0b2a448>"
+      }
+    },
+    {
+      "id": 135,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 134,
+      "elapsed": 0.00019316700013405352,
+      "elapsed_instrumentation": 0.000045083000031809206,
+      "return_value": {
+        "class": "Integer",
+        "value": "40",
+        "object_id": 81
+      }
+    },
+    {
+      "id": 136,
+      "event": "call",
+      "thread_id": 24000,
+      "sql_query": {
+        "sql": "UPDATE \"users\" SET \"updated_at\" = ?, \"remember_digest\" = ? WHERE \"users\".\"id\" = ?",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 137,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 136,
+      "elapsed": 0.002911208,
+      "elapsed_instrumentation": 0.00003791700009969645
+    },
+    {
+      "id": 138,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 98240,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 79980,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffff538fede8>"
+      }
+    },
+    {
+      "id": 139,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 138,
+      "elapsed": 0.00005050000004303001,
+      "elapsed_instrumentation": 0.00008791699997345859,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000ffff538fea00 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffff538fe848 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffff538fe690 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffff538fe4d8 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb, #<Proc:0x0000ffff538fe320 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb]",
+        "object_id": 80020,
+        "size": 5
+      }
+    },
+    {
+      "id": 140,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 98220,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 79920,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffff53901f98>"
+      }
+    },
+    {
+      "id": 141,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 140,
+      "elapsed": 0.0000011669999366858974,
+      "elapsed_instrumentation": 0.000060290999954304425,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 80040,
+        "size": 0
+      }
+    },
+    {
+      "id": 142,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 98220,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 79880,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffff53901c00>"
+      }
+    },
+    {
+      "id": 143,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 142,
+      "elapsed": 9.99999883788405e-7,
+      "elapsed_instrumentation": 0.000025959000140574062,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 80060,
+        "size": 0
+      }
+    },
+    {
+      "id": 144,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98420,
+          "value": "  \u001b[1m\u001b[36mTRANSACTION (2.1ms)\u001b[0m  \u001b[1m\u001b[36mcommit transaction\u001b[0m\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 23800,
+        "value": "#<Logger::LogDevice:0x0000ffffb1c66cc0>"
+      }
+    },
+    {
+      "id": 145,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 144,
+      "elapsed": 0.000016167000012501376,
+      "elapsed_instrumentation": 0.00005195799963075842,
+      "return_value": {
+        "class": "Integer",
+        "value": "68",
+        "object_id": 137
+      }
+    },
+    {
+      "id": 146,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98440,
+          "value": "  \u001b[1m\u001b[36mTRANSACTION (2.1ms)\u001b[0m  \u001b[1m\u001b[36mcommit transaction\u001b[0m\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9080,
+        "value": "#<Logger::LogDevice:0x0000ffffb0b2a448>"
+      }
+    },
+    {
+      "id": 147,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 146,
+      "elapsed": 0.00018645799991645617,
+      "elapsed_instrumentation": 0.00004950100014866621,
+      "return_value": {
+        "class": "Integer",
+        "value": "68",
+        "object_id": 137
+      }
+    },
+    {
+      "id": 148,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98460,
+          "value": "  ↳ app/models/user.rb:56:in `forget'\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 23800,
+        "value": "#<Logger::LogDevice:0x0000ffffb1c66cc0>"
+      }
+    },
+    {
+      "id": 149,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 148,
+      "elapsed": 0.000022291999812296126,
+      "elapsed_instrumentation": 0.00006983399998716777,
+      "return_value": {
+        "class": "Integer",
+        "value": "40",
+        "object_id": 81
+      }
+    },
+    {
+      "id": 150,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98480,
+          "value": "  ↳ app/models/user.rb:56:in `forget'\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9080,
+        "value": "#<Logger::LogDevice:0x0000ffffb0b2a448>"
+      }
+    },
+    {
+      "id": 151,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 150,
+      "elapsed": 0.0003347080000821734,
+      "elapsed_instrumentation": 0.00005050100003245461,
+      "return_value": {
+        "class": "Integer",
+        "value": "40",
+        "object_id": 81
+      }
+    },
+    {
+      "id": 152,
+      "event": "call",
+      "thread_id": 24000,
+      "sql_query": {
+        "sql": "commit transaction",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 153,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 152,
+      "elapsed": 0.003621875,
+      "elapsed_instrumentation": 0.00006033299996488495
+    },
+    {
+      "id": 154,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 111,
+      "elapsed": 0.009977832999993552,
+      "elapsed_instrumentation": 0.00003220799976588751,
+      "return_value": {
+        "class": "TrueClass",
+        "value": "true",
+        "object_id": 20
+      }
+    },
+    {
+      "id": 155,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActionDispatch::Cookies::CookieJar",
+      "method_id": "delete",
+      "path": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/middleware/cookies.rb",
+      "lineno": 393,
+      "static": false,
+      "parameters": [
+        {
+          "name": "name",
+          "class": "Symbol",
+          "object_id": 6533148,
+          "value": ":user_id",
+          "kind": "req"
+        },
+        {
+          "name": "options",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "opt"
+        }
+      ],
+      "receiver": {
+        "class": "ActionDispatch::Cookies::CookieJar",
+        "object_id": 97400,
+        "value": "#<ActionDispatch::Cookies::CookieJar:0x0000ffffa805d220>"
+      }
+    },
+    {
+      "id": 156,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 155,
+      "elapsed": 0.000002333000111320871,
+      "elapsed_instrumentation": 0.00005791600005977671
+    },
+    {
+      "id": 157,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActionDispatch::Cookies::CookieJar",
+      "method_id": "delete",
+      "path": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/middleware/cookies.rb",
+      "lineno": 393,
+      "static": false,
+      "parameters": [
+        {
+          "name": "name",
+          "class": "Symbol",
+          "object_id": 10679708,
+          "value": ":remember_token",
+          "kind": "req"
+        },
+        {
+          "name": "options",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "opt"
+        }
+      ],
+      "receiver": {
+        "class": "ActionDispatch::Cookies::CookieJar",
+        "object_id": 97400,
+        "value": "#<ActionDispatch::Cookies::CookieJar:0x0000ffffa805d220>"
+      }
+    },
+    {
+      "id": 158,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 157,
+      "elapsed": 0.000001207999957841821,
+      "elapsed_instrumentation": 0.000024959000029411982
+    },
+    {
+      "id": 159,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 110,
+      "elapsed": 0.01012495800000579,
+      "elapsed_instrumentation": 0.000039708999793219846
+    },
+    {
+      "id": 160,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActionDispatch::Request::Session",
+      "method_id": "destroy",
+      "path": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/request/session.rb",
+      "lineno": 95,
+      "static": false,
+      "receiver": {
+        "class": "ActionDispatch::Request::Session",
+        "object_id": 97360,
+        "value": "#<ActionDispatch::Request::Session:0x0000ffffa80553e0>"
+      }
+    },
+    {
+      "id": 161,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActionDispatch::Request::Session",
+      "method_id": "clear",
+      "path": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/request/session.rb",
+      "lineno": 156,
+      "static": false,
+      "receiver": {
+        "class": "ActionDispatch::Request::Session",
+        "object_id": 97360,
+        "value": "#<ActionDispatch::Request::Session:0x0000ffffa80553e0>"
+      }
+    },
+    {
+      "id": 162,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 161,
+      "elapsed": 0.000005417000011220807,
+      "elapsed_instrumentation": 0.000038040999925215147,
+      "return_value": {
+        "class": "Hash",
+        "value": "{}",
+        "object_id": 98500,
+        "size": 0
+      }
+    },
+    {
+      "id": 163,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "String",
+      "method_id": "unpack1",
+      "path": "<internal:pack>",
+      "lineno": 308,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 35920,
+          "value": "H*",
+          "kind": "req"
+        },
+        {
+          "name": "offset",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "String",
+        "object_id": 98520,
+        "value": "_\u0001_?_R__a____U9,"
+      }
+    },
+    {
+      "id": 164,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 163,
+      "elapsed": 0.000003541000069162692,
+      "elapsed_instrumentation": 0.00005733299963139871,
+      "return_value": {
+        "class": "String",
+        "value": "ff01cc3fec528ef261bbc1ef8e55392c",
+        "object_id": 98540
+      }
+    },
+    {
+      "id": 165,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 160,
+      "elapsed": 0.00019304100010231195,
+      "elapsed_instrumentation": 0.000025833999870883417,
+      "return_value": {
+        "class": "TrueClass",
+        "value": "true",
+        "object_id": 20
+      }
+    },
+    {
+      "id": 166,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 91,
+      "elapsed": 0.01252166699987356,
+      "elapsed_instrumentation": 0.00005287399994813313
+    },
+    {
+      "id": 167,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActionController::Instrumentation",
+      "method_id": "redirect_to",
+      "path": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_controller/metal/instrumentation.rb",
+      "lineno": 40,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "Array",
+          "object_id": 98560,
+          "value": "[http://0.0.0.0:3000/, {:status=>:see_other}]",
+          "kind": "rest",
+          "size": 2
+        }
+      ],
+      "receiver": {
+        "class": "SessionsController",
+        "object_id": 97920,
+        "value": "#<SessionsController:0x0000ffffa80545a8>"
+      }
+    },
+    {
+      "id": 168,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98580,
+          "value": "Redirected to http://0.0.0.0:3000/\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 23800,
+        "value": "#<Logger::LogDevice:0x0000ffffb1c66cc0>"
+      }
+    },
+    {
+      "id": 169,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 168,
+      "elapsed": 0.000014667000186818768,
+      "elapsed_instrumentation": 0.00005041599979449529,
+      "return_value": {
+        "class": "Integer",
+        "value": "35",
+        "object_id": 71
+      }
+    },
+    {
+      "id": 170,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98600,
+          "value": "Redirected to http://0.0.0.0:3000/\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9080,
+        "value": "#<Logger::LogDevice:0x0000ffffb0b2a448>"
+      }
+    },
+    {
+      "id": 171,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 170,
+      "elapsed": 0.00020216699999764387,
+      "elapsed_instrumentation": 0.0000452079998467525,
+      "return_value": {
+        "class": "Integer",
+        "value": "35",
+        "object_id": 71
+      }
+    },
+    {
+      "id": 172,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 167,
+      "elapsed": 0.0006972920000407612,
+      "elapsed_instrumentation": 0.00006425000015042315,
+      "return_value": {
+        "class": "String",
+        "value": "<html><body>You are being <a href=\"http://0.0.0.0:3000/\">redirected</a>.</body></html>",
+        "object_id": 98620
+      }
+    },
+    {
+      "id": 173,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 66,
+      "elapsed": 0.017028833999802373,
+      "elapsed_instrumentation": 0.00008183300019481976,
+      "return_value": {
+        "class": "String",
+        "value": "<html><body>You are being <a href=\"http://0.0.0.0:3000/\">redirected</a>.</body></html>",
+        "object_id": 98620
+      }
+    },
+    {
+      "id": 174,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 97300,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 37900,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffaa9d9090>"
+      }
+    },
+    {
+      "id": 175,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 174,
+      "elapsed": 0.0000015839998468436534,
+      "elapsed_instrumentation": 0.00006487400014520972,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 70660,
+        "size": 0
+      }
+    },
+    {
+      "id": 176,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 97300,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 37820,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000ffffaa9d8b90>"
+      }
+    },
+    {
+      "id": 177,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 176,
+      "elapsed": 0.000009207999937643763,
+      "elapsed_instrumentation": 0.0000295419999929436,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000ffffaa9d8960 /usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb]",
+        "object_id": 70680,
+        "size": 1
+      }
+    },
+    {
+      "id": 178,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98640,
+          "value": "Completed 303 See Other in 22ms (ActiveRecord: 4.5ms | Allocations: 10071)\n\n\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 23800,
+        "value": "#<Logger::LogDevice:0x0000ffffb1c66cc0>"
+      }
+    },
+    {
+      "id": 179,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 178,
+      "elapsed": 0.000019915999928343808,
+      "elapsed_instrumentation": 0.00002879199996641546,
+      "return_value": {
+        "class": "Integer",
+        "value": "77",
+        "object_id": 155
+      }
+    },
+    {
+      "id": 180,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 98660,
+          "value": "Completed 303 See Other in 22ms (ActiveRecord: 4.5ms | Allocations: 10071)\n\n\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9080,
+        "value": "#<Logger::LogDevice:0x0000ffffb0b2a448>"
+      }
+    },
+    {
+      "id": 181,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 180,
+      "elapsed": 0.00022650000005342008,
+      "elapsed_instrumentation": 0.00003929099989363749,
+      "return_value": {
+        "class": "Integer",
+        "value": "77",
+        "object_id": 155
+      }
+    },
+    {
+      "id": 182,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "JSON::Ext::Generator::State",
+      "method_id": "generate",
+      "path": "JSON::Ext::Generator::State#generate",
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "Hash",
+          "object_id": 98680,
+          "value": "{session_id=>ff01cc3fec528ef261bbc1ef8e55392c}",
+          "kind": "req",
+          "size": 1
+        }
+      ],
+      "receiver": {
+        "class": "JSON::Ext::Generator::State",
+        "object_id": 98700,
+        "value": "#<JSON::Ext::Generator::State:0x0000ffff53dede08>"
+      }
+    },
+    {
+      "id": 183,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 182,
+      "elapsed": 0.000014833000022917986,
+      "elapsed_instrumentation": 0.000088125000047512,
+      "return_value": {
+        "class": "String",
+        "value": "{\"session_id\":\"ff01cc3fec528ef261bbc1ef8e55392c\"}",
+        "object_id": 98720
+      }
+    },
+    {
+      "id": 184,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActiveSupport::MessageEncryptor",
+      "method_id": "encrypt_and_sign",
+      "path": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/message_encryptor.rb",
+      "lineno": 153,
+      "static": false,
+      "parameters": [
+        {
+          "name": "value",
+          "class": "String",
+          "object_id": 98720,
+          "value": "{\"session_id\":\"ff01cc3fec528ef261bbc1ef8e55392c\"}",
+          "kind": "req"
+        },
+        {
+          "name": "expires_at",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        },
+        {
+          "name": "expires_in",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        },
+        {
+          "name": "purpose",
+          "class": "String",
+          "object_id": 98740,
+          "value": "cookie._sample_app_session",
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::MessageEncryptor",
+        "object_id": 97500,
+        "value": "#<ActiveSupport::MessageEncryptor:0x0000ffffa8063c88>"
+      }
+    },
+    {
+      "id": 185,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "encrypt",
+      "path": "OpenSSL::Cipher#encrypt",
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "Array",
+          "object_id": 98760,
+          "value": "[]",
+          "kind": "rest",
+          "size": 0
+        }
+      ],
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 98780,
+        "value": "#<OpenSSL::Cipher:0x0000ffff53df3bc8>",
+        "labels": [
+          "crypto.algorithm.id-aes256-GCM"
+        ]
+      }
+    },
+    {
+      "id": 186,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 185,
+      "elapsed": 0.0000019999999949504854,
+      "elapsed_instrumentation": 0.00003804200014201342,
+      "return_value": {
+        "class": "OpenSSL::Cipher",
+        "value": "#<OpenSSL::Cipher:0x0000ffff53df3bc8>",
+        "object_id": 98780
+      }
+    },
+    {
+      "id": 187,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "key=",
+      "path": "OpenSSL::Cipher#key=",
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "String",
+          "object_id": 38100,
+          "value": "\u0010n_v]\u001df_G____;_h_<______m_\u0013_3a_\u000b",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 98780,
+        "value": "#<OpenSSL::Cipher:0x0000ffff53df3bc8>"
+      }
+    },
+    {
+      "id": 188,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 187,
+      "elapsed": 0.0000028750000637955964,
+      "elapsed_instrumentation": 0.00004079099994669377,
+      "return_value": {
+        "class": "String",
+        "value": "\u0010n_v]\u001df_G____;_h_<______m_\u0013_3a_\u000b",
+        "object_id": 38100
+      }
+    },
+    {
+      "id": 189,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "random_iv",
+      "path": "/usr/local/lib/ruby/3.1.0/openssl/cipher.rb",
+      "lineno": 55,
+      "static": false,
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 98780,
+        "value": "#<OpenSSL::Cipher:0x0000ffff53df3bc8>"
+      }
+    },
+    {
+      "id": 190,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "OpenSSL::Random",
+      "method_id": "random_bytes",
+      "path": "OpenSSL::Random.random_bytes",
+      "static": true,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "Integer",
+          "object_id": 25,
+          "value": "12",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 70860,
+        "value": "OpenSSL::Random"
+      }
+    },
+    {
+      "id": 191,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 190,
+      "elapsed": 0.000020333999827926164,
+      "elapsed_instrumentation": 0.000023874999897088856,
+      "return_value": {
+        "class": "String",
+        "value": "8\u0004_e_<Z:____",
+        "object_id": 98800
+      }
+    },
+    {
+      "id": 192,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "iv=",
+      "path": "OpenSSL::Cipher#iv=",
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "String",
+          "object_id": 98800,
+          "value": "8\u0004_e_<Z:____",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 98780,
+        "value": "#<OpenSSL::Cipher:0x0000ffff53df3bc8>"
+      }
+    },
+    {
+      "id": 193,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 192,
+      "elapsed": 0.0000011249999261053745,
+      "elapsed_instrumentation": 0.0002611249999517895,
+      "return_value": {
+        "class": "String",
+        "value": "8\u0004_e_<Z:____",
+        "object_id": 98800
+      }
+    },
+    {
+      "id": 194,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 189,
+      "elapsed": 0.0003196659999957774,
+      "elapsed_instrumentation": 0.00001720800014481938,
+      "return_value": {
+        "class": "String",
+        "value": "8\u0004_e_<Z:____",
+        "object_id": 98800
+      }
+    },
+    {
+      "id": 195,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "auth_data=",
+      "path": "OpenSSL::Cipher#auth_data=",
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "String",
+          "object_id": 38540,
+          "value": "",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 98780,
+        "value": "#<OpenSSL::Cipher:0x0000ffff53df3bc8>"
+      }
+    },
+    {
+      "id": 196,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 195,
+      "elapsed": 7.500000265281415e-7,
+      "elapsed_instrumentation": 0.000017750000097294105,
+      "return_value": {
+        "class": "String",
+        "value": "",
+        "object_id": 38540
+      }
+    },
+    {
+      "id": 197,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38360,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98820,
+        "value": "[{\"session_id\":\"ff01cc3fec528ef261bbc1ef8e55392c\"}]"
+      }
+    },
+    {
+      "id": 198,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 197,
+      "elapsed": 0.0000034580000374262454,
+      "elapsed_instrumentation": 0.000023125999859985313,
+      "return_value": {
+        "class": "String",
+        "value": "eyJzZXNzaW9uX2lkIjoiZmYwMWNjM2ZlYzUyOGVmMjYxYmJjMWVmOGU1NTM5MmMifQ==",
+        "object_id": 98840
+      }
+    },
+    {
+      "id": 199,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "JSON::Ext::Generator::State",
+      "method_id": "generate",
+      "path": "JSON::Ext::Generator::State#generate",
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "Hash",
+          "object_id": 98860,
+          "value": "{_rails=>{message=>eyJzZXNzaW9uX2lkIjoiZmYwMWNjM2ZlYzUyOGVmMjYxYmJjMWVmOGU1NTM5MmMifQ==, exp=>, pur=>cookie._sample_app_session}}",
+          "kind": "req",
+          "size": 1
+        }
+      ],
+      "receiver": {
+        "class": "JSON::Ext::Generator::State",
+        "object_id": 98880,
+        "value": "#<JSON::Ext::Generator::State:0x0000ffff53dc10d8>"
+      }
+    },
+    {
+      "id": 200,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 199,
+      "elapsed": 0.000007500000037907739,
+      "elapsed_instrumentation": 0.000039667000010013,
+      "return_value": {
+        "class": "String",
+        "value": "{\"_rails\":{\"message\":\"eyJzZXNzaW9uX2lkIjoiZmYwMWNjM2ZlYzUyOGVmMjYxYmJjMWVmOGU1NTM5MmMifQ==\",\"exp\":nu (...39 more characters)",
+        "object_id": 98900
+      }
+    },
+    {
+      "id": 201,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "update",
+      "path": "OpenSSL::Cipher#update",
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "Array",
+          "object_id": 98920,
+          "value": "[{\"_rails\":{\"message\":\"eyJzZXNzaW9uX2lkIjoiZmYwMWNjM2ZlYzUyOGVmMjYxYmJjMWVmOGU1NTM5MmMifQ==\",\"exp\":nu (...39 more characters)]",
+          "kind": "rest",
+          "size": 1
+        }
+      ],
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 98780,
+        "value": "#<OpenSSL::Cipher:0x0000ffff53df3bc8>"
+      }
+    },
+    {
+      "id": 202,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 201,
+      "elapsed": 0.000003000000106112566,
+      "elapsed_instrumentation": 0.000026416000082463142,
+      "return_value": {
+        "class": "String",
+        "value": "__7__\n\u000e\u0011_\u0004__z__+_.___[/\u001a%_SS_____m____`__^__q_GZ_\u001a_\fW_E_h__9__;\n_\u0017_@_K_cB#We_l\u0000_K#______T__OW__xX__\u001f (...39 more characters)",
+        "object_id": 98940
+      }
+    },
+    {
+      "id": 203,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "final",
+      "path": "OpenSSL::Cipher#final",
+      "static": false,
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 98780,
+        "value": "#<OpenSSL::Cipher:0x0000ffff53df3bc8>"
+      }
+    },
+    {
+      "id": 204,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 203,
+      "elapsed": 0.000001624999867999577,
+      "elapsed_instrumentation": 0.000013916999932916951,
+      "return_value": {
+        "class": "String",
+        "value": "",
+        "object_id": 98960
+      }
+    },
+    {
+      "id": 205,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38360,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98980,
+        "value": "[__7__\n\u000e\u0011_\u0004__z__+_.___[/\u001a%_SS_____m____`__^__q_GZ_\u001a_\fW_E_h__9__;\n_\u0017_@_K_cB#We_l\u0000_K#______T__OW__xX__\u001f (...39 more characters)]"
+      }
+    },
+    {
+      "id": 206,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 205,
+      "elapsed": 9.170000794256339e-7,
+      "elapsed_instrumentation": 0.000021750000087195076,
+      "return_value": {
+        "class": "String",
+        "value": "q6s3w50KDhGCBP2weoXeK9cuqMSlWy8aJeVTU/CDu9Hfbe3zoptgqYVe7q9x/0dapxq4DFe6RcJo75Y55co7CpkXtEDSS+ljQiNX (...88 more characters)",
+        "object_id": 99000
+      }
+    },
+    {
+      "id": 207,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38360,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99020,
+        "value": "[8\u0004_e_<Z:____]"
+      }
+    },
+    {
+      "id": 208,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 207,
+      "elapsed": 6.660000053670956e-7,
+      "elapsed_instrumentation": 0.000020916999801556813,
+      "return_value": {
+        "class": "String",
+        "value": "OAT6Za08WjrRn6TG",
+        "object_id": 99040
+      }
+    },
+    {
+      "id": 209,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38360,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99060,
+        "value": "[___(___\u0007_<e___0\\]"
+      }
+    },
+    {
+      "id": 210,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 209,
+      "elapsed": 6.669999947916949e-7,
+      "elapsed_instrumentation": 0.000017458999991504243,
+      "return_value": {
+        "class": "String",
+        "value": "v8TDKJ/WtAe3PGWu+/AwXA==",
+        "object_id": 99080
+      }
+    },
+    {
+      "id": 211,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 184,
+      "elapsed": 0.0007330409998758114,
+      "elapsed_instrumentation": 0.00004066700012117508,
+      "return_value": {
+        "class": "String",
+        "value": "q6s3w50KDhGCBP2weoXeK9cuqMSlWy8aJeVTU/CDu9Hfbe3zoptgqYVe7q9x/0dapxq4DFe6RcJo75Y55co7CpkXtEDSS+ljQiNX (...132 more characters)",
+        "object_id": 99100
+      }
+    },
+    {
+      "id": 212,
+      "event": "call",
+      "thread_id": 24000,
+      "defined_class": "ActionDispatch::Cookies::CookieJar",
+      "method_id": "[]=",
+      "path": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/middleware/cookies.rb",
+      "lineno": 370,
+      "static": false,
+      "parameters": [
+        {
+          "name": "name",
+          "class": "String",
+          "object_id": 38240,
+          "value": "_sample_app_session",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActionDispatch::Cookies::CookieJar",
+        "object_id": 97400,
+        "value": "#<ActionDispatch::Cookies::CookieJar:0x0000ffffa805d220>"
+      }
+    },
+    {
+      "id": 213,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 212,
+      "elapsed": 0.000012040999990858836,
+      "elapsed_instrumentation": 0.000021750000087195076,
+      "return_value": {
+        "class": "String",
+        "value": "q6s3w50KDhGCBP2weoXeK9cuqMSlWy8aJeVTU/CDu9Hfbe3zoptgqYVe7q9x/0dapxq4DFe6RcJo75Y55co7CpkXtEDSS+ljQiNX (...132 more characters)",
+        "object_id": 99100
+      }
+    },
+    {
+      "id": 214,
+      "event": "return",
+      "thread_id": 24000,
+      "parent_id": 1,
+      "elapsed": 0.05981483300001855,
+      "elapsed_instrumentation": 0.0026755000001230655,
+      "http_server_response": {
+        "status_code": 303,
+        "headers": {
+          "X-Frame-Options": "SAMEORIGIN",
+          "X-XSS-Protection": "0",
+          "X-Content-Type-Options": "nosniff",
+          "X-Download-Options": "noopen",
+          "X-Permitted-Cross-Domain-Policies": "none",
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Location": "http://0.0.0.0:3000/",
+          "Content-Type": "text/html; charset=utf-8",
+          "Cache-Control": "no-cache",
+          "Set-Cookie": "_sample_app_session=q6s3w50KDhGCBP2weoXeK9cuqMSlWy8aJeVTU%2FCDu9Hfbe3zoptgqYVe7q9x%2F0dapxq4DFe6RcJo75Y55co7CpkXtEDSS%2BljQiNXZdNsAKpLI%2BPQwd6ItFTs%2BU9XkOJ4WMfYHyEGH8sXDrCAlEmasBBQg0%2BQdGl956Z4ch%2F4%2FtKmATN36c3iz8S2wg%3D%3D--OAT6Za08WjrRn6TG--v8TDKJ%2FWtAe3PGWu%2B%2FAwXA%3D%3D; path=/; HttpOnly; SameSite=Lax",
+          "X-Request-Id": "b83d2304-2294-4895-8b59-a3b35c881e04",
+          "X-Runtime": "0.047080",
+          "Server-Timing": "start_processing.action_controller;dur=0.73, sql.active_record;dur=12.08, instantiation.active_record;dur=0.15, redirect_to.action_controller;dur=0.63, process_action.action_controller;dur=22.65"
+        }
+      }
+    }
+  ],
+  "version": "1.12.0",
+  "metadata": {
+    "app": "sample_rails_app",
+    "language": {
+      "name": "ruby",
+      "engine": "ruby",
+      "version": "3.1.2"
+    },
+    "client": {
+      "name": "appmap",
+      "url": "https://github.com/applandinc/appmap-ruby",
+      "version": "0.102.2"
+    },
+    "frameworks": [
+      {
+        "name": "rails",
+        "version": "7.0.4"
+      }
+    ],
+    "git": {
+      "repository": "https://github.com/land-of-apps/sample_rails_app.git",
+      "branch": "appmap-configured",
+      "commit": "e176455318c46ff6f7cc9d3e547b64c34c903efe",
+      "git_last_annotated_tag": null,
+      "git_last_tag": null,
+      "git_commits_since_last_annotated_tag": null,
+      "git_commits_since_last_tag": null
+    },
+    "name": "DELETE /logout (303) - 18:34:58.757",
+    "timestamp": 1711564498.7573311,
+    "recorder": {
+      "name": "rack",
+      "type": "requests"
+    }
+  },
+  "classMap": [
+    {
+      "name": "activesupport",
+      "type": "package",
+      "children": [
+        {
+          "name": "ActiveSupport",
+          "type": "class",
+          "children": [
+            {
+              "name": "Callbacks",
+              "type": "class",
+              "children": [
+                {
+                  "name": "CallbackSequence",
+                  "type": "class",
+                  "children": [
+                    {
+                      "name": "invoke_before",
+                      "type": "function",
+                      "labels": [
+                        "mvc.before_action"
+                      ],
+                      "static": false,
+                      "location": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb:594"
+                    },
+                    {
+                      "name": "invoke_after",
+                      "type": "function",
+                      "labels": [
+                        "mvc.after_action"
+                      ],
+                      "static": false,
+                      "location": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/callbacks.rb:598"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Messages",
+              "type": "class",
+              "children": [
+                {
+                  "name": "Rotator",
+                  "type": "class",
+                  "children": [
+                    {
+                      "name": "Encryptor",
+                      "type": "class",
+                      "children": [
+                        {
+                          "name": "decrypt_and_verify",
+                          "type": "function",
+                          "static": false,
+                          "location": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/messages/rotator.rb:21"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "MessageEncryptor",
+              "type": "class",
+              "children": [
+                {
+                  "name": "encrypt_and_sign",
+                  "type": "function",
+                  "static": false,
+                  "location": "/usr/local/bundle/gems/activesupport-7.0.4/lib/active_support/message_encryptor.rb:153"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ruby",
+      "type": "package",
+      "children": [
+        {
+          "name": "String",
+          "type": "class",
+          "children": [
+            {
+              "name": "unpack",
+              "type": "function",
+              "labels": [
+                "string.unpack"
+              ],
+              "static": false,
+              "location": "<internal:pack>:275"
+            },
+            {
+              "name": "unpack1",
+              "type": "function",
+              "labels": [
+                "string.unpack"
+              ],
+              "static": false,
+              "location": "<internal:pack>:308"
+            }
+          ]
+        },
+        {
+          "name": "Array",
+          "type": "class",
+          "children": [
+            {
+              "name": "pack",
+              "type": "function",
+              "labels": [
+                "array.pack"
+              ],
+              "static": false,
+              "location": "<internal:pack>:143"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "logger",
+      "type": "package",
+      "children": [
+        {
+          "name": "Logger",
+          "type": "class",
+          "children": [
+            {
+              "name": "LogDevice",
+              "type": "class",
+              "children": [
+                {
+                  "name": "write",
+                  "type": "function",
+                  "labels": [
+                    "log"
+                  ],
+                  "static": false,
+                  "location": "/usr/local/lib/ruby/3.1.0/logger/log_device.rb:31"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "actionpack",
+      "type": "package",
+      "children": [
+        {
+          "name": "ActionDispatch",
+          "type": "class",
+          "children": [
+            {
+              "name": "Request",
+              "type": "class",
+              "children": [
+                {
+                  "name": "Session",
+                  "type": "class",
+                  "children": [
+                    {
+                      "name": "[]",
+                      "type": "function",
+                      "labels": [
+                        "http.session.read"
+                      ],
+                      "static": false,
+                      "location": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/request/session.rb:110"
+                    },
+                    {
+                      "name": "destroy",
+                      "type": "function",
+                      "labels": [
+                        "http.session.write"
+                      ],
+                      "static": false,
+                      "location": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/request/session.rb:95"
+                    },
+                    {
+                      "name": "clear",
+                      "type": "function",
+                      "labels": [
+                        "http.session.write",
+                        "http.session.clear"
+                      ],
+                      "static": false,
+                      "location": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/request/session.rb:156"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Cookies",
+              "type": "class",
+              "children": [
+                {
+                  "name": "CookieJar",
+                  "type": "class",
+                  "children": [
+                    {
+                      "name": "update",
+                      "type": "function",
+                      "labels": [
+                        "http.session.write"
+                      ],
+                      "static": false,
+                      "location": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/middleware/cookies.rb:352"
+                    },
+                    {
+                      "name": "[]",
+                      "type": "function",
+                      "labels": [
+                        "http.session.read"
+                      ],
+                      "static": false,
+                      "location": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/middleware/cookies.rb:336"
+                    },
+                    {
+                      "name": "delete",
+                      "type": "function",
+                      "labels": [
+                        "http.session.write"
+                      ],
+                      "static": false,
+                      "location": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/middleware/cookies.rb:393"
+                    },
+                    {
+                      "name": "[]=",
+                      "type": "function",
+                      "labels": [
+                        "http.session.write"
+                      ],
+                      "static": false,
+                      "location": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_dispatch/middleware/cookies.rb:370"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ActionController",
+          "type": "class",
+          "children": [
+            {
+              "name": "Instrumentation",
+              "type": "class",
+              "children": [
+                {
+                  "name": "redirect_to",
+                  "type": "function",
+                  "labels": [
+                    "mvc.controller"
+                  ],
+                  "static": false,
+                  "location": "/usr/local/bundle/gems/actionpack-7.0.4/lib/action_controller/metal/instrumentation.rb:40"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "openssl",
+      "type": "package",
+      "children": [
+        {
+          "name": "OpenSSL",
+          "type": "class",
+          "children": [
+            {
+              "name": "Cipher",
+              "type": "class",
+              "children": [
+                {
+                  "name": "decrypt",
+                  "type": "function",
+                  "labels": [
+                    "crypto.decrypt"
+                  ],
+                  "static": false,
+                  "location": "OpenSSL::Cipher#decrypt"
+                },
+                {
+                  "name": "key=",
+                  "type": "function",
+                  "labels": [
+                    "crypto.set_key"
+                  ],
+                  "static": false,
+                  "location": "OpenSSL::Cipher#key="
+                },
+                {
+                  "name": "iv=",
+                  "type": "function",
+                  "labels": [
+                    "crypto.set_iv"
+                  ],
+                  "static": false,
+                  "location": "OpenSSL::Cipher#iv="
+                },
+                {
+                  "name": "auth_tag=",
+                  "type": "function",
+                  "labels": [
+                    "crypto.set_auth_tag"
+                  ],
+                  "static": false,
+                  "location": "OpenSSL::Cipher#auth_tag="
+                },
+                {
+                  "name": "auth_data=",
+                  "type": "function",
+                  "labels": [
+                    "crypto.set_auth_data"
+                  ],
+                  "static": false,
+                  "location": "OpenSSL::Cipher#auth_data="
+                },
+                {
+                  "name": "update",
+                  "type": "function",
+                  "static": false,
+                  "location": "OpenSSL::Cipher#update"
+                },
+                {
+                  "name": "final",
+                  "type": "function",
+                  "labels": [
+                    "crypto.final"
+                  ],
+                  "static": false,
+                  "location": "OpenSSL::Cipher#final"
+                },
+                {
+                  "name": "encrypt",
+                  "type": "function",
+                  "labels": [
+                    "crypto.encrypt"
+                  ],
+                  "static": false,
+                  "location": "OpenSSL::Cipher#encrypt"
+                },
+                {
+                  "name": "random_iv",
+                  "type": "function",
+                  "static": false,
+                  "location": "/usr/local/lib/ruby/3.1.0/openssl/cipher.rb:55"
+                }
+              ]
+            },
+            {
+              "name": "Random",
+              "type": "class",
+              "children": [
+                {
+                  "name": "random_bytes",
+                  "type": "function",
+                  "labels": [
+                    "random.secure"
+                  ],
+                  "static": true,
+                  "location": "OpenSSL::Random.random_bytes"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "json",
+      "type": "package",
+      "children": [
+        {
+          "name": "JSON",
+          "type": "class",
+          "children": [
+            {
+              "name": "Ext",
+              "type": "class",
+              "children": [
+                {
+                  "name": "Parser",
+                  "type": "class",
+                  "children": [
+                    {
+                      "name": "parse",
+                      "type": "function",
+                      "labels": [
+                        "format.json.parse",
+                        "deserialize.safe"
+                      ],
+                      "static": false,
+                      "location": "JSON::Ext::Parser#parse"
+                    }
+                  ]
+                },
+                {
+                  "name": "Generator",
+                  "type": "class",
+                  "children": [
+                    {
+                      "name": "State",
+                      "type": "class",
+                      "children": [
+                        {
+                          "name": "generate",
+                          "type": "function",
+                          "labels": [
+                            "format.json.generate",
+                            "serialize"
+                          ],
+                          "static": false,
+                          "location": "JSON::Ext::Generator::State#generate"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "app",
+      "type": "package",
+      "children": [
+        {
+          "name": "controllers",
+          "type": "package",
+          "children": [
+            {
+              "name": "SessionsController",
+              "type": "class",
+              "children": [
+                {
+                  "name": "destroy",
+                  "type": "function",
+                  "static": false,
+                  "location": "app/controllers/sessions_controller.rb:27"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "helpers",
+          "type": "package",
+          "children": [
+            {
+              "name": "SessionsHelper",
+              "type": "class",
+              "children": [
+                {
+                  "name": "logged_in?",
+                  "type": "function",
+                  "static": false,
+                  "location": "app/helpers/sessions_helper.rb:40"
+                },
+                {
+                  "name": "current_user",
+                  "type": "function",
+                  "static": false,
+                  "location": "app/helpers/sessions_helper.rb:19"
+                },
+                {
+                  "name": "log_out",
+                  "type": "function",
+                  "static": false,
+                  "location": "app/helpers/sessions_helper.rb:52"
+                },
+                {
+                  "name": "forget",
+                  "type": "function",
+                  "static": false,
+                  "location": "app/helpers/sessions_helper.rb:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "models",
+          "type": "package",
+          "children": [
+            {
+              "name": "User",
+              "type": "class",
+              "children": [
+                {
+                  "name": "session_token",
+                  "type": "function",
+                  "static": false,
+                  "location": "app/models/user.rb:43"
+                },
+                {
+                  "name": "forget",
+                  "type": "function",
+                  "static": false,
+                  "location": "app/models/user.rb:55"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "DELETE /logout"
+        }
+      ]
+    },
+    {
+      "type": "database",
+      "name": "Database",
+      "children": [
+        {
+          "type": "query",
+          "name": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?"
+        },
+        {
+          "type": "query",
+          "name": "begin transaction"
+        },
+        {
+          "type": "query",
+          "name": "UPDATE \"users\" SET \"updated_at\" = ?, \"remember_digest\" = ? WHERE \"users\".\"id\" = ?"
+        },
+        {
+          "type": "query",
+          "name": "commit transaction"
+        }
+      ]
+    }
+  ]
+}

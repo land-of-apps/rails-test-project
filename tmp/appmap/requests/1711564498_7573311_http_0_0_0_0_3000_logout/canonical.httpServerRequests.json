@@ -1,0 +1,7 @@
+[
+  {
+    "route": "DELETE /logout",
+    "parameters": "()",
+    "status": 303
+  }
+]
